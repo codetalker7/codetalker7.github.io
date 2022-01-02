@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-F3PQ5Z92Y6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'G-F3PQ5Z92Y6');
+        </script>
+		
+		<title> My Projects</title>
+		<meta charset = "UTF-8">
+		<meta name = "description" content = "Siddhant Chaudhary's website">
+		<meta name = "keywords" content = "Siddhant , Chaudhary , Mathematics , PROMYS , Chennai Mathematical Institute">
+		<meta name = "author" content = "Siddhant Chaudhary">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<!--kits code for fontawesome for free icons-->
+		<script src="https://kit.fontawesome.com/7e52b0c8c5.js" crossorigin="anonymous"></script>
+		
+		<!--bootstrap 3-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		
+		<!--mathjax-->
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+		<!--always load bootstrap first; it may include features that you may want to manually override. If nothing works
+			then try to use !important in css.
+		-->
+		<!--css files-->
+		<link rel= "stylesheet" href="../responsive_layout/layout.v1.css">
+		<link rel= "stylesheet" href="../font/font_style.v1.css">
+		<!--css files for different screen sizes. This order is important!-->
+		<link rel= "stylesheet" href="../responsive_layout/layout_lg.v1.css">
+		<link rel= "stylesheet" href="../responsive_layout/layout_md.v1.css">
+		<link rel= "stylesheet" href="../responsive_layout/layout_sm.v1.css">
+		<link rel= "stylesheet" href="../responsive_layout/layout_xs.v1.css">
+		<!--css files for styling-->
+		<link rel= "stylesheet" id = "styling_css" href="../styling/site_style.v1.css">
+		<!--css for the navigation bar button-->
+		<link rel= "stylesheet" href="../responsive_layout/nav_button.v1.css">
+		
+		<!--fonts-->
+		<!--comfortaa-->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Oswald&display=swap" rel="stylesheet">
+		<!--nunito-->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito&family=Oswald&display=swap" rel="stylesheet"> 
+		<!--oswald-->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+		<!--chivo-->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet"> 
+	</head>
+	<body>
+		<!--nav bar-->
+		<a data-toggle = "collapse" data-target = "#nav_menu" class="nav_button_container" onclick="myFunction(this)">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</a> 
+		<nav class = "nav_hidden">
+			<a data-toggle = "collapse" data-target = "#nav_menu" class="nav_button_container" onclick="myFunction(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</a>
+			<!--some blankspace-->
+			<div style = "height: 10%; width: 100%; visibility: hidden;"></div>
+			<hr>
+			<a href = "index.v1.html" class = "nav_link"><div class = "row no-gutter">
+				<div class = "col-xs-4 go_arrow"><div class = "arr"><span class="glyphicon glyphicon-menu-left"></span></div></div>
+				<div class = "col-xs-8 menu_entry">HOME</div>	
+			</div></a>
+			<hr>
+			<a href = "mathnotes.v1.html" class = "nav_link"><div class = "row no-gutter">
+				<div class = "col-xs-4 go_arrow"><div class = "arr"><span class="glyphicon glyphicon-menu-left"></span></div></div>
+				<div class = "col-xs-8 menu_entry">COURSE NOTES</div>
+			</div></a>
+			<hr>
+			<a href = "projects.v1.html" class = "nav_link"><div class = "row no-gutter">
+				<div class = "col-xs-4 go_arrow"><div class = "arr"><span class="glyphicon glyphicon-menu-left"></span></div></div>
+				<div class = "col-xs-8 menu_entry">PROJECTS</div>
+			</div></a>
+			<hr>
+			<div class = "row no-gutter disabled_nav_link">
+				<div class = "col-xs-4 go_arrow"><div class = "arr"><span class="glyphicon glyphicon-menu-left"></span></div></div>
+				<div class = "col-xs-8 menu_entry">CODE</div>
+			</div>
+			<hr>
+		</nav>
+		<!--script for the fancy navigation button-->
+		<script src = "../scripts/nav_button.v1.js"></script>
+		<main>
+			<!--top-blankspace-->
+			<div class = "row no-gutter" style = "height: 7em;"></div>
+			<!--main heading-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-1"></div>
+				<div class = "col-xs-10" id = "main_heading">Projects.</div>
+				<div class = "col-xs-1"></div>
+			</div>
+			<!--main text on mainpage-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-1"></div>
+				<div id = "main_page_text" class = "col-xs-10">
+					Here are any extra projects that I have worked on, either independently or with someone.
+				</div>
+				<div class = "col-xs-1"></div>
+			</div>
+			<!--separator-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-1"></div>
+				<div class = "col-xs-10 page_separator" id = "project_separator">
+					<div class = "separator_base"></div>
+					<div class = "separator_circle"></div>
+				</div>
+				<div class = "col-xs-1"></div>
+				<div class = "row no-gutter">
+					<div class = "col-xs-12 separator_space"></div>
+				</div>
+			</div>
+		
+			<!--projects section-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-2"></div>
+				<div class = "col-xs-8">
+					<!--twoples project-->
+					<div class = "proj_head">The Galois Correspondence in Algebraic Topology.</div>
+					<div class = "proj_date"><a href = "https://sites.google.com/view/twoples/home" target = "_blank" class = "general_link">Twoples, Fall 2020</a></div>
+					<div class = "proj_desc">One of the central objects that connects algebra with topology 
+					is the <i>fundamental group</i>. Infact, there is a very surprising relationship between the lattice
+					of covering spaces of a topological space and the lattice of subgroups of its fundamental group, given that 
+					the space in question is sufficiently nice. In this reading project, I studied this relationship briefly. A 
+					<a href = "../projects/twoples/Twoples_Algebraic_Topology.pdf" target = "_blank" class = "general_link">poster</a> was made for the same. 
+					</div>
+					<figure>
+						<img id = "alg_top" class = "proj_img negate_image" src = "../images/alg_top-light.png" alt = "Cayley graph of free group">
+						<figcaption>This is the Cayley graph of the free group \(\langle a , b\rangle\) on two generators, a standard picture in algebraic topology.</figcaption>
+					</figure>					
+					
+					<!--project separator-->
+					<div class = "proj_separator"></div>
+					
+					<!--sandpile project-->
+					<div class = "proj_head">The Bernoulli Sandpile on the Infinite Ladder.</div>
+					<div class = "proj_date"><a href = "https://promys.org/" target = "_blank" class = "general_link">PROMYS, July-August 2019</a></div>
+					<div class = "proj_desc"> A <i>sandpile</i> is a graph in which each vertex contains grains of send and is allowed to <i>topple</i>, i.e 
+					send one grain of sand to each of its neighbors. We studied the toppling behavior 
+					of random sandpiles on the ladder graph \(\mathbb{Z}\times\mathbb{Z}_2\), with a bernoulli distribution on the number of grains of sand
+					on each vertex. A <a href = "../projects/sandpiles/JMM_Poster_2020-3.pdf" target = "_blank" class = "general_link">poster</a> was made by my partner, and we also made a <a href = "../projects/sandpiles/Ladder_Sandpiles_Presentation.pdf" target = "_blank" class = "general_link">presentation</a> for exhibiting 
+					our work. 
+					</div>
+					<figure>
+						<img id = "sandpile" class = "proj_img negate_image" src = "../images/sandpile-light.png" alt = "Part of the ladder graph">
+						<figcaption>A mod-1 harmonic function on the ladder, where \(\alpha\) is a carefully calculated number.</figcaption>
+					</figure>
+					
+					<!--project separator-->
+					<div class = "proj_separator"></div>
+				</div>
+				<div class = "col-xs-2"></div>
+			</div>
+			
+			<!--the push element. Very important for making sure that contact_row sticks to the bottom of the page-->
+			<div class = "push"></div>
+		</main>
+		
+		<!--bottom-contact-layer-->
+		<footer class = "row no-gutter">
+			<div class = "col-xs-6 contact_half">
+				<div class = "contact_list" style = "right:5%;">
+					<div class = "contact_button"><a href = "index.v1.html" class = "contact_link">HOME</a></div>
+					<div class = "contact_button"><a href = "mathnotes.v1.html" class = "contact_link">COURSE NOTES</a></div>
+					<div class = "contact_button"><a href = "projects.v1.html" class = "contact_link">PROJECTS</a></div>
+				</div>
+			</div>
+			<div class = "col-xs-6 contact_half">
+				<div class = "contact_list" style = "left:5%;">
+					<div class = "contact_button contact_link disabled_link">CODE</div>
+					<div class = "contact_button">
+						<a href = "mailto: urssidd@gmail.com"><i class="fas fa-envelope contact_icon"></i></a>
+						<a href = "index.v1.html#contact_target"><i class="fab fa-discord contact_icon"></i></a>
+						<a href = "https://www.facebook.com/siddhant.chaudhary.7921/" target = "_blank"><i class="fab fa-facebook contact_icon"></i></a>
+						<a href = "https://www.linkedin.com/in/siddhant-chaudhary-84182110a/" target = "_blank"><i class="fab fa-linkedin contact_icon"></i></a>
+					</div>
+					<div class = "contact_button" style = "visibility: hidden;">invisible</div>
+				</div>
+			</div>
+			<!--script for light_dark_mode-->
+			<script src = "../scripts/negate_images.v1.js"></script>
+			<div id = "light_dark_toggle">
+				<div id = "light_toggle" onclick = "lightMode()"></div>
+				<div id = "dark_toggle" onclick = "darkMode()"></div>
+			</div>
+		</footer>
+	</body>
+</html>

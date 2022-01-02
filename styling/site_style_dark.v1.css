@@ -1,0 +1,117 @@
+/*
+--THIS CODE IS DIVIDED INTO VARIOUS SECTIONS FOR DIFFERENT PAGES OF THE WEBSITE
+--SOME SECTIONS ARE COMMON, AND OTHERS MUST BE SEPARATED BY COMMENTS. USE CAPITAL 
+--LETTERS FOR THE SEPARATORS
+*/
+
+/*COMMON ELEMENTS TO ALL PAGES*/
+body{
+	background-color: black;
+	color: white;
+}
+
+/*the footer*/
+footer{
+	background-color: white;
+}
+.contact_link , .contact_icon , .nav_link , .contact_link:focus , .contact_icon:focus , .nav_link:focus{
+	color: #515151;
+}
+.contact_link:hover, .contact_icon:hover , .nav_link:hover{
+	color: black;
+}
+.contact_link:hover , .nav_link:hover{
+	text-decoration: #7171C6 underline;
+}
+/*disabled elements are dull*/
+.disabled_link , .disabled_link:hover , .disabled_nav_link , .disabled_nav_link:hover{
+	color: #8E8E8E;
+	text-decoration: none;
+}
+#light_toggle , #dark_toggle{
+	border: solid 2px black;
+}
+#light_toggle:hover , #dark_toggle:hover{
+	cursor: pointer;
+}
+#dark_toggle{
+	background-color: black;
+}
+/*nav_menu*/
+nav{
+	background-color: white;
+}
+nav hr{
+	background-color: black;
+}
+.nav_link:hover .menu_entry{
+	text-decoration: #7171C6 underline;
+}
+
+.general_link , .general_link:focus{
+	color: #00F5FF;
+}
+.general_link:hover{
+	color: #00F5FF;
+	text-decoration: blue #00F5FF;
+}
+
+.general_link_red , .general_link_red:focus{
+	color: red;
+}
+.general_link_red:hover{
+	color: red;
+	text-decoration: red underline;
+}
+
+/*nav button*/
+.bar1, .bar2, .bar3{
+	background-color: white;
+}
+/* Rotate first bar */
+.change .bar1 {
+	background-color: black;
+}
+/* Rotate last bar */
+.change .bar3 {
+	background-color: black;
+}
+
+/*ELEMENTS FOR homepage.html*/
+#mathnotes{
+	border-color: #FF6103;
+	color: #FF6103;
+}
+#mathnotes:hover{
+	background-color: #FF6103;
+	color: white;
+}
+#projects{
+	border-color: #9400D3;
+	color: #9400D3;
+}
+#projects:hover{
+	background-color: #9400D3;
+	color: white;
+}
+#codingwork{ /*temporarily disabled*/
+	opacity: 0.4;
+}
+
+/*ELEMENTS FOR mathnotes.html*/
+#mathnotes_separator .separator_base , #mathnotes_separator .separator_circle{
+	background-color: #FF6103;
+}
+.notes_heading_wrapper{
+	color: white;
+	border-color: #AAAAAA;
+}
+.notes_heading_wrapper:hover{
+	background-color: #C0C0C0;
+	color: black;
+}
+
+/*ELEMENTS FOR projects.html*/
+#project_separator .separator_base , #project_separator .separator_circle{
+	background-color: #9400D3;
+}

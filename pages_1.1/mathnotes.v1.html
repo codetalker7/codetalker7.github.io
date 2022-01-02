@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-F3PQ5Z92Y6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'G-F3PQ5Z92Y6');
+        </script>
+	
+		<title> My Notes</title>
+		<meta charset = "UTF-8">
+		<meta name = "description" content = "Siddhant Chaudhary's website">
+		<meta name = "keywords" content = "Siddhant , Chaudhary , Mathematics , PROMYS , Chennai Mathematical Institute">
+		<meta name = "author" content = "Siddhant Chaudhary">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<!--kits code for fontawesome for free icons-->
+		<script src="https://kit.fontawesome.com/7e52b0c8c5.js" crossorigin="anonymous"></script>
+		
+		<!--bootstrap 3-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		
+		<!--mathjax-->
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+		
+		<!--always load bootstrap first; it may include features that you may want to manually override. If nothing works
+			then try to use !important in css.
+		-->
+		<!--css files-->
+		<link rel= "stylesheet" href="../responsive_layout/layout.v1.css">
+		<link rel= "stylesheet" href="../font/font_style.v1.css">
+		<!--css files for different screen sizes. This order is important!-->
+		<link rel= "stylesheet" href="../responsive_layout/layout_lg.v1.css">
+		<link rel= "stylesheet" href="../responsive_layout/layout_md.v1.css">
+		<link rel= "stylesheet" href="../responsive_layout/layout_sm.v1.css">
+		<link rel= "stylesheet" href="../responsive_layout/layout_xs.v1.css">
+		<!--css files for styling-->
+		<link rel= "stylesheet" id = "styling_css" href="../styling/site_style.v1.css">
+		<!--css for the navigation bar button-->
+		<link rel= "stylesheet" href="../responsive_layout/nav_button.v1.css">
+		
+		<!--fonts-->
+		<!--comfortaa-->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Oswald&display=swap" rel="stylesheet">
+		<!--nunito-->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito&family=Oswald&display=swap" rel="stylesheet"> 
+		<!--oswald-->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+		<!--chivo-->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet"> 
+	</head>
+	<body>
+		<!--nav bar-->
+		<a data-toggle = "collapse" data-target = "#nav_menu" class="nav_button_container" onclick="myFunction(this)">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</a> 
+		<nav class = "nav_hidden">
+			<a data-toggle = "collapse" data-target = "#nav_menu" class="nav_button_container" onclick="myFunction(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</a>
+			<!--some blankspace-->
+			<div style = "height: 10%; width: 100%; visibility: hidden;"></div>
+			<hr>
+			<a href = "index.v1.html" class = "nav_link"><div class = "row no-gutter">
+				<div class = "col-xs-4 go_arrow"><div class = "arr"><span class="glyphicon glyphicon-menu-left"></span></div></div>
+				<div class = "col-xs-8 menu_entry">HOME</div>	
+			</div></a>
+			<hr>
+			<a href = "mathnotes.v1.html" class = "nav_link"><div class = "row no-gutter">
+				<div class = "col-xs-4 go_arrow"><div class = "arr"><span class="glyphicon glyphicon-menu-left"></span></div></div>
+				<div class = "col-xs-8 menu_entry">COURSE NOTES</div>
+			</div></a>
+			<hr>
+			<a href = "projects.v1.html" class = "nav_link"><div class = "row no-gutter">
+				<div class = "col-xs-4 go_arrow"><div class = "arr"><span class="glyphicon glyphicon-menu-left"></span></div></div>
+				<div class = "col-xs-8 menu_entry">PROJECTS</div>
+			</div></a>
+			<hr>
+			<div class = "row no-gutter disabled_nav_link">
+				<div class = "col-xs-4 go_arrow"><div class = "arr"><span class="glyphicon glyphicon-menu-left"></span></div></div>
+				<div class = "col-xs-8 menu_entry">CODE</div>
+			</div>
+			<hr>
+		</nav>
+		<!--script for the fancy navigation button-->
+		<script src = "../scripts/nav_button.v1.js"></script>
+		<main>
+			<!--top-blankspace-->
+			<div class = "row no-gutter" style = "height: 7em;"></div>
+			<!--main heading-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-1"></div>
+				<div class = "col-xs-10" id = "main_heading">Course Notes.</div>
+				<div class = "col-xs-1"></div>
+			</div>
+			<!--main text on mainpage-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-1"></div>
+				<div id = "main_page_text" class = "col-xs-10">
+					Here is a list of notes that I have maintained while attending various courses. I use these 
+					mainly for my own reference. Some of them may not be complete, and errors are abound! In any set of notes, I have 
+					tried to write the most interesting and the most important parts as I understand them. 
+					If you have any ideas and wish to talk about something, feel free to <a href="index.v1.html#contact_target" class = "general_link">contact me</a>.
+				</div>
+				<div class = "col-xs-1"></div>
+			</div>
+			<!--separator-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-1"></div>
+				<div class = "col-xs-10 page_separator" id = "mathnotes_separator">
+					<div class = "separator_base"></div>
+					<div class = "separator_circle"></div>
+				</div>
+				<div class = "col-xs-1"></div>
+				<div class = "row no-gutter">
+					<div class = "col-xs-12 separator_space"></div>
+				</div>
+			</div>
+		
+			<!--note section-->
+			<!--analysis-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-1 col-sm-2"></div>
+				<div class = "col-xs-10 col-sm-8">
+					<div class = "notes_box">
+						<a href = "#analysis_notes" data-toggle="collapse">
+							<div class = "row no-gutter notes_heading_wrapper">
+								<div class = "col-xs-1"><span class="glyphicon glyphicon-menu-left notes_heading_arr"></span></span></div>
+								<div class = "col-xs-11"><div class = "notes_heading_text">Analysis</div></div>
+							</div>
+						</a>
+						<div id = "analysis_notes" class = "notes_maincontent collapse">
+							<ul class = "mainpage_notes">
+								<li class = "mainpage_notes">
+									<b>Complex Analysis:</b> I have a document containing solutions to some 
+									good problems in complex analysis. This was mainly in conjunction with the 
+									instructor notes that I was following. 
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../math-notes/CANA/cana_main_notes.pdf" target="_blank" class = "general_link">Main Notes</a></td>
+										<tr>
+									</table>
+								</li>
+								<li class = "mainpage_notes">
+									<b>Analysis 3:</b> The main goal of the course was to study Metric Spaces and 
+									Fourier Series. There is a document for the main notes, and a set of 
+									homework problems. 
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../math-notes/Analysis3/main_notes.pdf" target = "_blank" class = "general_link">Main Notes</a></td>
+											<td><a href = "../math-notes/Analysis3/hw-5.pdf" target = "_blank" class = "general_link">HW-5</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/Analysis3/hw-1.pdf" target = "_blank" class = "general_link">HW-1</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/Analysis3/hw-2.pdf" target = "_blank" class = "general_link">HW-2</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/Analysis3/hw-3.pdf" target = "_blank" class = "general_link">HW-3</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/Analysis3/hw-4.pdf" target = "_blank" class = "general_link">HW-4</a></td>
+										<tr>
+									</table>
+								</li>
+								<li class = "mainpage_notes">
+									<b>Calculus:</b> aka Integration in higher dimensions. I have a set of nice 
+									problems, and a document containing the main notes. 
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../math-notes/Calculus/main_notes.pdf" target = "_blank" class = "general_link">Main Notes</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/Calculus/hw-1.pdf" target = "_blank" class = "general_link">HW-1</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/Calculus/hw-2.pdf" target = "_blank" class = "general_link">HW-2</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/Calculus/hw-3.pdf" target = "_blank" class = "general_link">HW-3</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/Calculus/hw-4.pdf" target = "_blank" class = "general_link">HW-4</a></td>
+										<tr>
+									</table>
+								</li>
+								<li class = "mainpage_notes">
+									<b>Analysis 2:</b> aka Differential Calculus in higher dimensions. Notes are not 
+									in the best shape, but maybe still good for reference. Also a couple of homework problems,
+									without problem statements.
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../math-notes/Analysis2/main_notes.pdf" target = "_blank" class = "general_link">Main Notes</a></td>
+											<td><a href = "../math-notes/Analysis2/hw6.pdf" target = "_blank" class = "general_link">HW-6</a></td>
+										<tr>
+										<tr>
+											<td>HW-1</td>
+											<td><a href = "../math-notes/Analysis2/hw7.pdf" target = "_blank" class = "general_link">HW-7</a></td>
+										<tr>
+										<tr>
+											<td>HW-2</td>
+											<td><a href = "../math-notes/Analysis2/hw8.pdf" target = "_blank" class = "general_link">HW-8</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/Analysis2/hw3.pdf" target = "_blank" class = "general_link">HW-3</a></td>
+											<td><a href = "../math-notes/Analysis2/hw9.pdf" target = "_blank" class = "general_link">HW-9</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/Analysis2/hw4.pdf" target = "_blank" class = "general_link">HW-4</a></td>
+											<td><a href = "../math-notes/Analysis2/hw9(Optional).pdf" target = "_blank" class = "general_link">HW-9(optional)</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/Analysis2/hw5.pdf" target = "_blank" class = "general_link">HW-5</a></td>
+										<tr>
+									</table>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class = "col-xs-1 col-sm-2"></div>
+			</div>
+			
+			<!--interior notes spacer-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-12 notes_spacer_in"></div>
+			</div>
+			
+			<!--algebra-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-1 col-sm-2"></div>
+				<div class = "col-xs-10 col-sm-8">
+					<div class = "notes_box">
+						<a href = "#algebra_notes" data-toggle="collapse">
+							<div class = "row no-gutter notes_heading_wrapper">
+								<div class = "col-xs-1"><span class="glyphicon glyphicon-menu-left notes_heading_arr"></span></span></div>
+								<div class = "col-xs-11"><div class = "notes_heading_text">Algebra</div></div>
+							</div>
+						</a>
+						<div id = "algebra_notes" class = "notes_maincontent collapse">
+							<ul class = "mainpage_notes">
+								<li class = "mainpage_notes"> 
+									<b>Algebra-3</b> This course was a study of rings and 
+									fields, two of the most important algebraic structures in math. There is a 
+									document for the main notes, along with a set of homework problems. 
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../math-notes/Algebra3/main_notes.pdf" target = "_blank" class = "general_link">Main Notes</a></td>
+											<td><a href = "../math-notes/Algebra3/hw-4.pdf" target = "_blank" class = "general_link">HW-4</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/Algebra3/hw-0.pdf" target = "_blank" class = "general_link">HW-0</a></td>
+											<td><a href = "../math-notes/Algebra3/hw-5.pdf" target = "_blank" class = "general_link">HW-5</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/Algebra3/hw-1.pdf" target = "_blank" class = "general_link">HW-1</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/Algebra3/hw-2.pdf" target = "_blank" class = "general_link">HW-2</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/Algebra3/hw-3.pdf" target = "_blank" class = "general_link">HW-3</a></td>
+										<tr>
+									</table>
+								</li>
+								<li class = "mainpage_notes">
+									<b>Algebra-2:</b> I maintained a document of solutions to a lot of group-theoretic
+									problems and some miscellaneous stuff. Not proper notes, but useful material anyway.
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../math-notes/Algebra2/Group_Theory.pdf" target = "_blank" class = "general_link">Problem Document</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/Algebra2/Free_Groups.pdf" target = "_blank" class = "general_link">Free Groups</a></td>
+										<tr>
+									</table>
+								</li>
+								<li class = "mainpage_notes">
+									<b>Algebra-1:</b> Here is a loose document which discusses some basic topics
+									in linear algebra. This is an old one (taken in my very first semester). 
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../math-notes/Algebra1/Linear_Algebra.pdf" target = "_blank" class = "general_link">Some Ideas</a></td>
+										<tr>
+									</table>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class = "col-xs-1 col-sm-2"></div>
+			</div>
+			
+			<!--interior notes spacer-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-12 notes_spacer_in"></div>
+			</div>
+			
+			<!--cs-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-1 col-sm-2"></div>
+				<div class = "col-xs-10 col-sm-8">
+					<div class = "notes_box">
+						<a href = "#theory-cs" data-toggle="collapse">
+							<div class = "row no-gutter notes_heading_wrapper">
+								<div class = "col-xs-1"><span class="glyphicon glyphicon-menu-left notes_heading_arr"></span></div>
+								<div class = "col-xs-11"><div class = "notes_heading_text">Computer Science</div></div>
+							</div>
+						</a>
+						<div id = "theory-cs" class = "notes_maincontent collapse">
+							<ul class = "mainpage_notes">
+								<li class = "mainpage_notes"> 
+									<p>
+										<b>Online Convex Optimization:</b> This course revolved around the Online Convex Optimization (abbreviated OCO) framework. In this setting, 
+										the goal is to devise an online learning algorithm which takes in a sequence of arbitrary convex functions over a convex body and tries to 
+										predict a strategy at each time step. The goal is to minimize the so called <i>regret</i> of the algorithm over a time horizon (this word comes from 
+										game theory). I have a set of main notes as well as three homework problem documents given below. Additionally there is a 
+										<a href="https://github.com/codetalker7/ogd-vs-sgd" class="general_link">repository</a> which contains an implementation of the vanilla GD and SGD 
+										algorithms, and compares them in terms of their convergence rates. 
+									</p>
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../math-notes/OCO/main.pdf" target="_blank" class = "general_link">Main Notes</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/OCO/hw1.pdf" target="_blank" class = "general_link">HW1</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/OCO/hw2.pdf" target="_blank" class = "general_link">HW2</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/OCO/hw3.pdf" target="_blank" class = "general_link">HW3</a></td>
+										<tr>
+									</table>
+																		
+								</li>
+								<li class = "mainpage_notes"> 
+									<b>Foundations of ML:</b> This course was an introduction to the foundations of Statistical Learning Theory. The main ideas of PAC learning were 
+									introduced, leading all the way to the Fundamental Theorem of Statistical Learning. In the second part of the course, many practical aspects of ML
+									were discussed, including some ML algorithms and model selection and validation techniques. For this course, I have a document containing some notes, 
+									along with three homework problem documents. 
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../math-notes/TFML/main.pdf" target="_blank" class = "general_link">Main Notes</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/TFML/hw1.pdf" target="_blank" class = "general_link">HW1</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/TFML/hw2.pdf" target="_blank" class = "general_link">HW2</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/TFML/hw3.pdf" target="_blank" class = "general_link">HW3</a></td>
+										<tr>
+									</table>
+								</li>
+								<li class = "mainpage_notes"> 
+									<b>Randomized and Sublinear Algorithms:</b> The first half of this course was about randomization in algorithms, i.e the techniques of designing 
+									and analyzing randomized algorithms. The second half of the course revolved around the domain of sublinear algorithms in the streaming model. Towards
+									the end of the course, techniques of proving lower bounds on sublinear algorithms were discussed. For this course, I have a document containing 
+									the notes. 
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../math-notes/ADAL/main.pdf" target="_blank" class = "general_link">Main Notes</a></td>
+										<tr>
+									</table>
+								</li>
+								<li class = "mainpage_notes"> 
+									<b>PLC:</b> This was a course on various programming concepts, including object oriented programming and lambda-calculus.
+									I have a set of main notes, along with two homeworks on lambda calculus.
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../math-notes/PLC/plc_main_notes.pdf" target="_blank" class = "general_link">Main Notes</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/PLC/hw3.pdf" target="_blank" class = "general_link">HW3</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/PLC/hw4.pdf" target="_blank" class = "general_link">HW4</a></td>
+										<tr>
+									</table>
+								</li>
+								<li class = "mainpage_notes"> 
+									<b>Complexity Theory:</b> This is a rigorous introduction to complexity classes
+									and other topics in complexity theory. I have a document containing the main notes, along
+									with some nice problems.
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../math-notes/CPTH/cpth_main_notes.pdf" target="_blank" class = "general_link">Main Notes</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/CPTH/cpth_hw_1.pdf" target="_blank" class = "general_link">HW1</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/CPTH/cpth_hw_2.pdf" target="_blank" class = "general_link">HW2</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/CPTH/cpth_hw_3.pdf" target="_blank" class = "general_link">HW3</a></td>
+										<tr>
+									</table>
+								</li>
+								<li class = "mainpage_notes"> 
+									<b>Theory of Computation:</b> The course revolved around three models of computations: 
+									finite automatons, context-free grammars and Turing Machines, and the related properties
+									of the sets they describe. I maintained a document of the main notes, along with a bunch
+									of problem sets. 
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../math-notes/TOC/main_notes.pdf" target = "_blank" class = "general_link">Main Notes</a></td>
+											<td><a href = "../math-notes/TOC/pset8.pdf" target = "_blank" class = "general_link">PSET-8</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/TOC/pset1.pdf" target = "_blank" class = "general_link">PSET-1</a></td>
+											<td><a href = "../math-notes/TOC/pset9.pdf" target = "_blank" class = "general_link">PSET-9</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/TOC/pset2.pdf" target = "_blank" class = "general_link">PSET-2</a></td>
+											<td><a href = "../math-notes/TOC/pset10.pdf" target = "_blank" class = "general_link">PSET-10</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/TOC/pset3.pdf" target = "_blank" class = "general_link">PSET-3</a></td>
+											<td><a href = "../math-notes/TOC/pset11.pdf" target = "_blank" class = "general_link">PSET-11</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/TOC/pset4.pdf" target = "_blank" class = "general_link">PSET-4</a></td>
+											<td><a href = "../math-notes/TOC/pset12.pdf" target = "_blank" class = "general_link">PSET-12</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/TOC/pset5.pdf" target = "_blank" class = "general_link">PSET-5</a></td>
+											<td><a href = "../math-notes/TOC/pset13.pdf" target = "_blank" class = "general_link">PSET-13</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/TOC/pset6.pdf" target = "_blank" class = "general_link">PSET-6</a></td>
+											<td><a href = "../math-notes/TOC/pset14.pdf" target = "_blank" class = "general_link">PSET-14</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/TOC/pset7.pdf" target = "_blank" class = "general_link">PSET-7</a></td>
+										<tr>
+									</table>
+								</li>
+								<li class = "mainpage_notes"> 
+									<b>Discrete Mathematics:</b> This was a first course in discrete mathematics, and revolved
+									around topics in combinatorics and graph theory. I made a (not so good looking) document 
+									containing solutions to some nice problems, and some other random topics. Unfortunately, 
+									the document does not contain problem statements. 
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../math-notes/Dmath/Discrete_Mathematics.pdf" target = "_blank" class = "general_link">Some Problems</a></td>
+										<tr>
+									</table>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class = "col-xs-1 col-sm-2"></div>
+			</div>
+			
+			<!--interior notes spacer-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-12 notes_spacer_in"></div>
+			</div>
+			
+			<!--uncategorized-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-1 col-sm-2"></div>
+				<div class = "col-xs-10 col-sm-8">
+					<div class = "notes_box">
+						<a href = "#uncat" data-toggle="collapse">
+							<div class = "row no-gutter notes_heading_wrapper">
+								<div class = "col-xs-1"><span class="glyphicon glyphicon-menu-left notes_heading_arr"></span></div>
+								<div class = "col-xs-11"><div class = "notes_heading_text">Uncategorized</div></div>
+							</div>
+						</a>
+						<div id = "uncat" class = "notes_maincontent collapse">
+							<ul class = "mainpage_notes">
+								<li class = "mainpage_notes"> 
+									<b>Differential Equations:</b> This was an advanced course on the theory of Ordinary Differential Equations.
+									I have maintained a set of main notes along with some problems.
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../math-notes/DEQN/deqn_main_notes.pdf" target="_blank" class = "general_link">Main Notes</a></td>
+											<td><a href = "../math-notes/DEQN/deqn_hw4.pdf" target="_blank" class = "general_link">HW-4</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/DEQN/Cookbook-1-solutions.pdf" target="_blank" class = "general_link">Cookbook-I</a></td>
+											<td><a href = "../math-notes/DEQN/deqn_hw5.pdf" target="_blank" class = "general_link">HW-5</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/DEQN/Cookbook-2-solutions.pdf" target="_blank" class = "general_link">Cookbook-II</a></td>
+											<td><a href = "../math-notes/DEQN/deqn_hw6.pdf" target="_blank" class = "general_link">HW-6</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/DEQN/deqn_hw1.pdf" target="_blank" class = "general_link">HW-1</a></td>
+											<td><a href = "../math-notes/DEQN/deqn_hw7.pdf" target="_blank" class = "general_link">HW-7</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/DEQN/deqn_hw2.pdf" target="_blank" class = "general_link">HW-2</a></td>
+											<td><a href = "../math-notes/DEQN/deqn_hw8.pdf" target="_blank" class = "general_link">HW-8</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../math-notes/DEQN/deqn_hw3.pdf" target="_blank" class = "general_link">HW-3</a></td>
+											<td><a href = "../math-notes/DEQN/deqn_hw9.pdf" target="_blank" class = "general_link">HW-9</a></td>
+										<tr>
+									</table>
+								</li>
+								<li class = "mainpage_notes"> 
+									<b>Topology:</b> The course revolved around various aspects of 
+									general topology and algebraic topology. There is a document containing the main notes and some good exercises. 
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../math-notes/TOPO/topology_main_notes.pdf" target="_blank" class = "general_link">Main Notes</a></td>
+										<tr>
+									</table>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class = "col-xs-1 col-sm-2"></div>
+			</div>
+
+			<!--talks-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-1 col-sm-2"></div>
+				<div class = "col-xs-10 col-sm-8">
+					<div class = "notes_box">
+						<a href = "#talks" data-toggle="collapse">
+							<div class = "row no-gutter notes_heading_wrapper">
+								<div class = "col-xs-1"><span class="glyphicon glyphicon-menu-left notes_heading_arr"></span></div>
+								<div class = "col-xs-11"><div class = "notes_heading_text">Talks/Reading Projects</div></div>
+							</div>
+						</a>
+						<div id = "talks" class = "notes_maincontent collapse">
+							<ul class = "mainpage_notes">
+								<li class = "mainpage_notes"> 
+									<b>Conservative Online Convex Optimization:</b> As part of the OCO course, I learned about an extension of the OCO framework which
+									enforces a <i>conservativeness</i> constraint on the online learner. The reading was presented twice during the semester. Check out 
+									the <a href="https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_271.pdf" class="general_link">original paper</a>. Below I've included 
+									two documents containing some hand-written notes roughly explaining the ideas, as well as a presentation for the talk. 
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../talks/oco/COCO-1 (Intro).pdf" target="_blank" class = "general_link">Handwritten 1</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../talks/oco/COCO-2 (Conservative Balls).pdf" target="_blank" class = "general_link">Handwritten 2</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../talks/oco/coco_final_presentation.pdf" target="_blank" class = "general_link">Presentation</a></td>
+										<tr>
+									</table>
+								</li>
+								<li class = "mainpage_notes"> 
+									<b>Adaptive Moment Estimation:</b> This is a talk on Adam, which stands for Adaptive Moment Estimation. Adam is a technique for optimization 
+									of the well known stochastic gradient descent algorithm in machine learning. Adam is readily available in most ML packages, and often beats 
+									other counterparts like AdaGrad or Nestorov's momentum in practice. Here I've included two presentations for the talk, as well as a report 
+									containing rough ideas about Adam's working as well as an experiment. 
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../talks/tfml/presentation1.pdf" target="_blank" class = "general_link">Presentation 1</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../talks/tfml/presentation2.pdf" target="_blank" class = "general_link">Presentation 2</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../talks/tfml/adam-report.pdf" target="_blank" class = "general_link">Report</a></td>
+										<tr>
+									</table>
+								</li>
+								<li class = "mainpage_notes"> 
+									<b>Graph Problems in the Semi-streaming Model:</b> In this reading I explored the <i>semi-streaming</i> data model for graph problems. This model
+									relaxes the storage constraints which makes it a rich area for solving graph theoretic problems (like matchings, computing diameters etc). Check 
+									out the <a href="https://www.sciencedirect.com/science/article/pii/S0304397505005323?via%3Dihub" class="general_link">original paper</a>. I have 
+									a document containing hand-written notes roughly explaining the ideas in the paper, and a final presentation for the talk. These notes
+									contain the discussion on the unweighted bipartite matching problem in the semi-streaming model.
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../talks/adal/hand-written.pdf" target="_blank" class = "general_link">Hand Written Notes</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../talks/adal/sem-streaming-presentation.pdf" target="_blank" class = "general_link">Presentation</a></td>
+										<tr>
+									</table>
+								</li>
+								<li class = "mainpage_notes"> 
+									<b>Randomization (for high school students):</b> This is a talk I gave during PROMYS 2021. The talk discusses some useful ideas in randomization. The main
+									problems discussed in the talk are the polynomial identity testing problem, it's application to bipartite matching, and a problem on verification of 
+									matrix multiplication. There is a presentation and a write-up of the talk.
+									<table class = "note_links">
+										<tr>
+											<td><a href = "../talks/promys/PROMYS_2021_Minicourse_Presentation__Randomized_Computation_.pdf" target="_blank" class = "general_link">Presentation</a></td>
+										<tr>
+										<tr>
+											<td><a href = "../talks/promys/PROMYS_2021_Minicourse_Writeup__Randomized_Computation_.pdf" target="_blank" class = "general_link">Write-up</a></td>
+										<tr>
+									</table>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class = "col-xs-1 col-sm-2"></div>
+			</div>
+
+			<!--interior notes spacer-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-12 notes_spacer_in"></div>
+			</div>
+			
+			<!--exterior notes spacer-->
+			<div class = "row no-gutter">
+				<div class = "col-xs-12 notes_spacer_out"></div>
+			</div>
+			
+			<!--the push element. Very important for making sure that contact_row sticks to the bottom of the page-->
+			<div class = "push"></div>
+		</main>
+		
+		<!--bottom-contact-layer-->
+		<footer class = "row no-gutter">
+			<div class = "col-xs-6 contact_half">
+				<div class = "contact_list" style = "right:5%;">
+					<div class = "contact_button"><a href = "index.v1.html" class = "contact_link">HOME</a></div>
+					<div class = "contact_button"><a href = "mathnotes.v1.html" class = "contact_link">COURSE NOTES</a></div>
+					<div class = "contact_button"><a href = "projects.v1.html" class = "contact_link">PROJECTS</a></div>
+				</div>
+			</div>
+			<div class = "col-xs-6 contact_half">
+				<div class = "contact_list" style = "left:5%;">
+					<div class = "contact_button contact_link disabled_link">CODE</div>
+					<div class = "contact_button">
+						<a href = "mailto: urssidd@gmail.com"><i class="fas fa-envelope contact_icon"></i></a>
+						<a href = "index.v1.html#contact_target"><i class="fab fa-discord contact_icon"></i></a>
+						<a href = "https://www.facebook.com/siddhant.chaudhary.7921/" target = "_blank"><i class="fab fa-facebook contact_icon"></i></a>
+						<a href = "https://www.linkedin.com/in/siddhant-chaudhary-84182110a/" target = "_blank"><i class="fab fa-linkedin contact_icon"></i></a>
+					</div>
+					<div class = "contact_button" style = "visibility: hidden;">invisible</div>
+				</div>
+			</div>
+			<!--script for light_dark_mode-->
+			<script src = "../scripts/negate_images.v1.js"></script>
+			<div id = "light_dark_toggle">
+				<div id = "light_toggle" onclick = "lightMode()"></div>
+				<div id = "dark_toggle" onclick = "darkMode()"></div>
+			</div>
+		</footer>
+	</body>
+</html>

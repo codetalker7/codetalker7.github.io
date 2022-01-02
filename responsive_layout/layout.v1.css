@@ -1,0 +1,123 @@
+/*
+--THIS CODE IS DIVIDED INTO VARIOUS SECTIONS FOR DIFFERENT PAGES OF THE WEBSITE
+--SOME SECTIONS ARE COMMON, AND OTHERS MUST BE SEPARATED BY COMMENTS. USE CAPITAL 
+--LETTERS FOR THE SEPARATORS
+*/
+
+/*COMMON ELEMENTS TO ALL PAGES*/
+/*to have full control over padding and other stuff*/
+*{
+	line-height: 100%;
+}
+html {
+	height: 100%;
+	scroll-behavior: smooth;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+main{
+	min-height: 100%; /*to make sure that the footer sticks at the bottom of the page*/
+	max-width: 1600px;
+	min-width: 320px;
+}
+/*Bootstrap creates gutters (spaces) between columns using padding and margin. These two classes are to remove that.
+  The main reason to do this is to acheive an edge-to-edge layout. Another important step to achieve this is to remove
+  the wrapper .container/.container-fluid class.
+*/
+.no-gutter {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.no-gutter > [class*="col-"] {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/*navigation bar*/
+nav {
+	position: fixed;
+	z-index: 1;
+	right: 0;
+	text-align: center;
+}
+.nav_hidden{
+	display: none;
+}
+.nav_button_container{
+	position: absolute;
+	top: 5px;
+	right: 20px;
+	z-index: 1;
+}
+.go_arrow{
+	padding: 1.5em !important;
+}
+.menu_entry{
+	padding: 1em 2em 1em 0 !important;
+	text-align: right;
+}
+nav hr{
+	height: 0.01px;
+	width: 100%;
+	margin: 1px auto 1px auto;
+}
+.contact_half{
+	height: 100%;
+	position: relative;
+}
+
+/*footer*/
+footer{
+	position: relative;
+	min-width: 320px;
+}
+.contact_list{
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.contact_button{
+	padding: 0.5em 5px 0.5em 5px;
+}
+/*--*--*--*/
+
+
+/*ELEMENTS FOR homepage.html*/
+.col_main_buttons{
+	height: 100%;
+}
+.button_container{
+	height: 100%; 
+	margin: auto;
+}
+.main_button{
+	width: 32%;
+	height: 100%;
+	float: left;
+}
+.spacer_main_button{
+	width: 2%;
+	height: 100%;
+	float: left;
+}
+
+
+/*ELEMENTS FOR mathnotes.html*/
+ul.mainpage_notes{
+    list-style: none;
+    margin-left: 0;
+    text-indent: -1.2em;
+}
+
+li.mainpage_notes:before{
+    content: '\279c';
+    display: block;
+    float: left;
+    width: 1.2em;
+}
+
+

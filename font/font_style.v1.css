@@ -1,0 +1,47 @@
+/*
+--THIS CODE IS DIVIDED INTO VARIOUS SECTIONS FOR DIFFERENT PAGES OF THE WEBSITE
+--SOME SECTIONS ARE COMMON, AND OTHERS MUST BE SEPARATED BY COMMENTS. USE CAPITAL 
+--LETTERS FOR THE SEPARATORS
+*/
+
+/*COMMON ELEMENTS TO ALL PAGES*/
+#main_heading{
+	font-family: 'Comfortaa';
+}
+.contact_button , nav{
+	font-family: 'Oswald';
+}
+
+/*ELEMENTS FOR homepage.html*/
+.button_heading{
+	font-family: 'Nunito';
+	font-weight: bold;
+}
+#main_page_text{
+	font-family: 'Chivo' , sans-serif;
+}
+.row_main_buttons{
+	font-family: 'Nunito';
+}
+.sec_heading{
+	font-family: 'Comfortaa';
+}
+.sec_desc{
+	font-family: 'Chivo' , sans-serif;
+}
+
+/*ELEMENTS FOR mathnotes.html*/
+.notes_heading_wrapper{
+	font-family: 'Nunito';
+}
+.notes_maincontent{
+	font-family: 'Chivo' , sans-serif;
+}
+
+/*ELEMENTS FOR projects.html*/
+.proj_head , .proj_date{
+	font-family: 'Nunito';
+}
+.proj_desc{
+	font-family: 'Chivo' , sans-serif;
+}

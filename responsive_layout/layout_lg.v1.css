@@ -1,0 +1,191 @@
+/*
+--THIS CODE IS DIVIDED INTO VARIOUS SECTIONS FOR DIFFERENT PAGES OF THE WEBSITE
+--SOME SECTIONS ARE COMMON, AND OTHERS MUST BE SEPARATED BY COMMENTS. USE CAPITAL 
+--LETTERS FOR THE SEPARATORS
+*/
+
+/*for lg*/
+@media all and (min-width: 1199.98px){
+	/*COMMON ELEMENTS TO MULTIPLE PAGES*/
+	/*nav bar*/
+	nav{
+		width: 20%;
+		height: 100%;
+	}
+	.go_arrow{
+		font-size: 18px;
+	}
+	.menu_entry{
+		font-size: 25px;
+		font-weight: bold;
+	}
+	
+	/*footer*/
+	footer , .push{
+		height: 15em; 
+	}
+	.contact_button{
+		font-size: 30px;
+	}
+	.contact_icon{
+		margin-right: 20px;
+	}
+	#light_dark_toggle{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		padding: 20px 20px 20px 0;
+	}
+	#light_toggle , #dark_toggle{
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		margin-right: 10px;
+		border-radius: 100%;
+	}
+	/*main*/
+	main{
+		margin: 0 auto -15em;
+	}
+	#main_heading{
+		font-size: 105px;
+	}
+	#main_page_text{
+		padding: 30px 0 30px 8px;
+		font-size: 25px;
+	}
+	.separator_base{
+		height: 7px;
+	}
+	.separator_circle{
+		height: 50px;
+		width: 50px;
+		position: absolute;
+		bottom: -300%;
+		left: 50%;
+		transform: translate(-50%, 0);
+		border-radius: 50%;
+	}
+	.separator_space{
+		height: 35px;
+	}
+	
+	
+	/*ELEMENTS FOR homepage.html*/
+	.row_main_buttons {
+		height: 15em;
+	}
+	.button_container {
+		width: 80%;
+	}
+	.main_button{
+		position: relative;
+		font-size: 25px;
+		border: solid 5px;
+	}
+	.button_heading{
+		margin-bottom: 1em;
+		font-size: 30px;
+		padding: 0.5em;
+	}
+	.button_glyph{
+		text-align: center;
+		width: 100%;
+		position: absolute;
+		top: 35%;
+		font-size: 80px;
+	}
+	#my_image{
+		display: block;
+		width: 300px;
+		border-radius: 50%;
+		margin: 0 auto 30px auto;
+	}
+	.sec_heading{
+		font-size: 60px;
+		padding: 0 0.3em 0 0.5em;
+		margin: 30px 0 30px 0;
+	}
+	.sec_desc{
+		font-size: 25px;
+		padding: 0 1em 0em 1em;
+	}
+	.glyph_group{
+		max-width: 75%;
+		margin: 0.5em auto 1em auto;
+	}
+	.glyph_group_child{
+		padding: 0.5em;
+	}
+	
+	
+	/*ELEMENTS FOR mathnotes.html*/
+	.notes_heading_wrapper{
+		padding: 0.5em 0 0.5em 0;
+		font-size: 60px;
+		border-bottom: solid 1px;
+	}
+	.notes_heading_arr{
+		font-size: 40px;
+		padding-left: 0.5em;
+	}
+	.notes_heading_text{
+		padding-left: 0.1em;
+	}
+	.notes_spacer_in{
+		height: 20px;
+	}
+	.notes_spacer_out{
+		height: 50px;
+	}
+	ul.mainpage_notes{
+		font-size: 25px;
+		padding: 1em 0 0 3em;
+	}
+	li.mainpage_notes{
+		margin-bottom: 0.8em;
+	}
+	.note_links{
+		margin-top: 1em;
+	}
+	.note_links td{
+		padding-right: 2em;
+	}
+	
+	
+	/*ELEMENTS FOR projects.html*/
+	.proj_head{
+		font-size: 50px;
+		margin: 0 0 0.5em 0;
+	}
+	.proj_date{
+		font-size: 25px;
+		margin: 0 0 1em 0em;
+	}
+	.proj_desc{
+		font-size: 20px;
+		margin: 0 0 1em 0em;
+	}
+	.proj_separator{
+		height: 50px;
+	}
+	figure{
+		text-align: center;
+	}
+	figcaption{
+		margin: auto;
+		max-width: 300px;
+		font-size: 20px;
+		padding: 1em;
+	}
+	.proj_img{
+		display: block;
+		margin: 0 auto;
+	}
+	#alg_top{
+		width: 400px;
+	}
+	#sandpile{
+		width: 450px;
+	}
+}
