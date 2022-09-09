@@ -4,11 +4,9 @@ layout: home
 permalink: /
 ---
 
-<!--This is borderline against markdown philosophy-->
-
-<p align="center">
-  <img src="/assets/images/homepage-modified.png" width="250px" height="250px" alt="My image"/>
-</p>
+{:refdef: style="text-align: center;"}
+![alt text](/assets/images/homepage-modified.png "My picture"){:width="250px"}
+{: refdef}
 
 Welcome to my homepage! I am a student at the [Chennai Mathematical Institute](https://www.cmi.ac.in/), a research insitute based in Chennai, India. I am a passionate problem solver, and I also love to write code. You can find a lot of what I do on this site.
 
