@@ -4,6 +4,12 @@ layout: home
 permalink: /
 ---
 
+<!--This is borderline against markdown philosophy-->
+
+<p align="center">
+  <img src="/assets/images/homepage-modified.png" width="250px" height="250px" alt="My image"/>
+</p>
+
 Welcome to my homepage! I am a student at the [Chennai Mathematical Institute](https://www.cmi.ac.in/), a research insitute based in Chennai, India. I am a passionate problem solver, and I also love to write code. You can find a lot of what I do on this site.
 
 Broadly speaking, my interests lie in Computer Science. I like anything that revolves around algorithms, theoretical machine learning, optimization and programming languages. In math, I'm mainly interested in algebra, topology and probability theory.
@@ -15,4 +21,9 @@ This website is updated whenever I have something new to add, which most likely 
 - **Email**: [chaudhary@cmi.ac.in](mailto:urssidd@gmail.com), [urssidd@gmail.com](mailto:urssidd@gmail.com).
 - **Discord**: Siddhant Chaudhary#8409.
 - **LinkedIn**: [Siddhant Chaudhary](https://www.linkedin.com/in/siddhant-chaudhary-84182110a/).
+
+> ##### About this website
+>
+> This webpage was made using [Jekyll's Gitbook](https://sighingnow.github.io/jekyll-gitbook/) theme. I was using my own template in the old website, which I had been wanting to change for a while. The old website still lives in the `main` branch of the `codetalker7.github.io` repository.
+{: .block-tip }
 

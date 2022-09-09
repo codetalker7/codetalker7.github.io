@@ -3,7 +3,12 @@ title: My Notes
 layout: post
 ---
 
-This page contains links to a bunch of notes that I have maintained while attending various courses, and notes for some talks and reading projects. I use these mainly for my own reference. Some of them may not be complete, and errors are abound! In any set of notes, I have tried to write the most interesting and the most important parts as I understand them.
+This page contains links to a bunch of notes that I have maintained while attending various courses, and notes for some talks and reading projects. I use these mainly for my own reference. In any set of notes, I have tried to write the most interesting and the most important parts as I understand them.
+
+> ##### Errors are abound.
+>
+> Many parts in these notes might be incomplete, and may contain errors as well. I have been lazy in correcting many of them.
+{: .block-danger }
 
 ## Analysis
 
