@@ -39,7 +39,7 @@ This page contains links to a bunch of notes that I have maintained while attend
 
 ## Computer Science
 
-1. **Software Verification and Analysis.** This was my first course which intersected with formal verification. The main goal of the course was to understand different theoretical tools which are needed to verify programs, which included tools from Hoare Logic and Abstract Interpretation. We also played with a bounded model checking program called [CBMC](CBMC) and Microsoft Research's [Z3](https://github.com/Z3Prover/z3). For this course, I have a set of main notes, and a [repository](https://github.com/codetalker7/SVA-hws) of two homework problem sets.
+1. **Software Verification and Analysis.** This was my first course which intersected with formal verification. The main goal of the course was to understand different theoretical tools which are needed to verify programs, which included tools from Hoare Logic and Abstract Interpretation. We also played with a bounded model checking program called [CBMC](https://www.cprover.org/cbmc/){:target="_blank"} and Microsoft Research's [Z3](https://github.com/Z3Prover/z3){:target="_blank"}. For this course, I have a set of main notes, and a [repository](https://github.com/codetalker7/SVA-hws) of two homework problem sets.
     - [Main Notes](/assets/math-notes/SVA/main.pdf){:target="_blank"}
 
 2. **Linear Programming and Combinatorial Optimization.** As the name suggests, in this course we studied different aspects of Linear Programming, algorithms to solve LPs and their application to various problems in combinatorial optimization. For this course, I maintained a set of notes. 
