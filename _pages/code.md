@@ -22,7 +22,7 @@ I've also [contributed](https://wiki.documentfoundation.org/index.php?title=Deve
 - A patch for the [Paste Special Dialogue](https://git.libreoffice.org/core/+/9d0ca8ee3f0c2a4e6c0bebec6ef1523cd04e849a%5E%21){:target="_blank"}
 - A patch for the [open-locked query box](https://git.libreoffice.org/core/+/ff9ff6018bea7c1a4524c8edca8ef554c74e4b3f%5E%21){:target="_blank"}.
 
-LO has one of the best workflows I've encountered thus far. They use [Gerrit](https://www.gerritcodereview.com/){:target="_blank"} for code review and [Jenkins](https://www.jenkins.io/){:target="_blank"}, along with a bunch of other tools which they have embedded in their codebase.
+LO has one of the best workflows I've encountered thus far. They use [Gerrit](https://www.gerritcodereview.com/){:target="_blank"} for code review and [Jenkins](https://www.jenkins.io/){:target="_blank"} for CI, along with a bunch of other tools which they have embedded in their codebase.
 
 > ##### Get Involved!
 >
