@@ -40,3 +40,5 @@ After following a bunch of tutorials/blogs on this, I've realized the the follow
 - To watch the files as I'm editing them, I use [docwatch](https://github.com/elcorto/docwatch){:target="_blank"}, which has support for [pandoc](https://pandoc.org/){:target="_blank"} by default. Though other tools can be used for this.
 
 - These with [Vim](https://www.vim.org/){:target="_blank"} make a great combination. To get the best experience, I use the [vim-pandoc](https://github.com/vim-pandoc/vim-pandoc){:target="_blank"} and [vim-pandoc-syntax](https://github.com/vim-pandoc/vim-pandoc-syntax){:target="_blank"} for syntax highlighting along with the [UltiSnips](https://github.com/SirVer/ultisnips){:target="_blank"} plugin for snippet support.
+
+Find out more information about this at [this repository][https://github.com/codetalker7/notes-template].
