@@ -41,4 +41,4 @@ After following a bunch of tutorials/blogs on this, I've realized the the follow
 
 - These with [Vim](https://www.vim.org/){:target="_blank"} make a great combination. To get the best experience, I use the [vim-pandoc](https://github.com/vim-pandoc/vim-pandoc){:target="_blank"} and [vim-pandoc-syntax](https://github.com/vim-pandoc/vim-pandoc-syntax){:target="_blank"} for syntax highlighting along with the [UltiSnips](https://github.com/SirVer/ultisnips){:target="_blank"} plugin for snippet support.
 
-Find out more information about this at [this repository][https://github.com/codetalker7/notes-template].
+Find out more information about this at [this repository](https://github.com/codetalker7/notes-template).
