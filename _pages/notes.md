@@ -103,3 +103,7 @@ This page contains links to a bunch of notes that I have maintained while attend
 4. **Randomization (for high school students).** This is a talk I gave during [PROMYS 2021](https://promys.org/). The talk discusses some useful ideas in randomization. The main problems discussed in the talk are the polynomial identity testing problem, it's application to bipartite matching, and a problem on verification of matrix multiplication. There is a presentation and a write-up of the talk.
     - [Presentation](/assets/talks/promys/PROMYS_2021_Minicourse_Presentation__Randomized_Computation_.pdf){:target="_blank"}
     - [Write-up](/assets/talks/promys/PROMYS_2021_Minicourse_Writeup__Randomized_Computation_.pdf){:target="_blank"}
+
+5. **Excess scaling algorithm for the max-flow problem.** As part of a course on matching and flow algorithms, I presented Orlin et al.'s paper *A fast and simple algorithm for the maximum flow problem*. The algorithm can be considered as a more detailed version of the usual PUSH-RELABEL paradigm. I made a presentation and a report for this.
+    - [Presentation](/assets/talks/MFAL/presentation.pdf){:target=”_blank”}
+    - [Report](/assets/talks/MFAL/report.pdf){:target=”_blank”}
