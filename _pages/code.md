@@ -3,7 +3,7 @@ title: Code
 layout: post
 ---
 
-In my free time, I try to contribute to open source software; my GitHub username is [@codetalker7](https://codetalker7){:target="_blank"}. On this page I'll try to describe the different projects I've contributed to, along with any other things that make life easy for me.
+In my free time, I try to contribute to open source software; my GitHub username is [@codetalker7](https://github.com/codetalker7){:target="_blank"}. On this page I'll try to describe the different projects I've contributed to, along with any other things that make life easy for me.
 
 ## The Julia Language
 
