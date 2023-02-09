@@ -10,7 +10,7 @@ permalink: /
 
 Welcome to my homepage! I am a student at the [Chennai Mathematical Institute](https://www.cmi.ac.in/), a research insitute based in Chennai, India. I am a passionate problem solver, and I also love to write code. You can find a lot of what I do on this site.
 
-Broadly speaking, my interests lie in Computer Science. I like anything that revolves around algorithms, theoretical machine learning, optimization and programming languages. In math, I'm mainly interested in algebra, topology and probability theory.
+Broadly speaking, my interests lie in Computer Science. I like anything that revolves around algorithms, theoretical machine learning, optimization and programming languages (check out my [research work](/pages/research)). In math, I'm mainly interested in algebra, topology and probability theory.
 
 In my free time, I love contributing to open source software. Check out some of my open source contributions [here](/pages/code). I also love speed typing ([this](https://data.typeracer.com/pit/profile?user=code_talker) is my last TypeRacer profile, which I've abandoned. I'm currently using [this](https://data.typeracer.com/pit/profile?user=professor_pyg) one).
 
