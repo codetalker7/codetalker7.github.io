@@ -25,7 +25,8 @@ I was part of 2022 edition of [Google Summer of Code](https://summerofcode.withg
 Apart from this, I've contributed to the following Julia packages as well.
 - [Lowess.jl](https://github.com/xKDR/Lowess.jl){:target="\_blank"}, which is a pure Julia implementation of the LOWESS smoother.
 - [NighttimeLights.jl](https://github.com/xKDR/NighttimeLights.jl){:target="\_blank"}, which is a package to analyze satellite data. We also worked with [Rasters.jl](https://rafaqz.github.io/Rasters.jl/dev/){:target="\_blank"}.
-- [TSx.jl](https://github.com/xKDR/TSx.jl){:target="\_blank"}, a package for Timeseries in Julia.
+- [TSFrames.jl](https://github.com/xKDR/TSx.jl){:target="\_blank"}, a package for Timeseries in Julia.
+- [Survey.jl](https://github.com/xKDR/Survey.jl){:target="\_blank"}, a package for complex survey analysis in Julia.
 
 All of this work has been possible because of the help I got from people at the [xKDR](https://www.xkdr.org/){:target="\_blank"} organization.
 
