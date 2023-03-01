@@ -7,9 +7,16 @@ In my free time, I try to contribute to open source software; my GitHub username
 
 ## Config
 
-I use the [`zsh`](https://www.zsh.org/) shell configured with [Oh My Zsh](https://ohmyz.sh/). My default text editor is [`vim`](https://github.com/vim/vim); I also use [`tmux`](https://github.com/tmux/tmux/wiki) to get the most efficiency. You can checkout my config files in [this repository](https://github.com/codetalker7/dotfiles).
+I use the [`zsh`](https://www.zsh.org/){:target="\_blank"} shell configured with [Oh My Zsh](https://ohmyz.sh/){:target="\_blank"}. My default text editor is [`vim`](https://github.com/vim/vim){:target="\_blank"}; I also use [`tmux`](https://github.com/tmux/tmux/wiki){:target="\_blank"} to get the most efficiency. You can checkout my config files in [this repository](https://github.com/codetalker7/dotfiles){:target="\_blank"}.
 
-I've configured `vim` to use the [`powerline`](https://github.com/powerline/powerline) status bar ([vim-airline](https://github.com/vim-airline/vim-airline) is an alternative that I also like). For my usual workflow, I use [`fugitive`](https://github.com/tpope/vim-fugitive) for `git` integration, [`NERDTree`](https://github.com/preservim/nerdtree) (a file system explorer), [`vim-commentary`](https://github.com/tpope/vim-commentary) (to comment stuff out easily), [`vim-sendtowindow`](https://github.com/karoliskoncevicius/vim-sendtowindow) (a plugin to send selections to a different pane/window; very useful if you have a REPL opened), along with a bunch of plugins for markup and live note taking (see the bottom of this page). 
+I've configured `vim` to use the [`powerline`](https://github.com/powerline/powerline){:target="\_blank"} status bar ([vim-airline](https://github.com/vim-airline/vim-airline){:target="\_blank"} is an alternative that I also like). For my usual workflow, I use [`fugitive`](https://github.com/tpope/vim-fugitive){:target="\_blank"} for `git` integration, [`NERDTree`](https://github.com/preservim/nerdtree){:target="\_blank"} (a file system explorer), [`vim-commentary`](https://github.com/tpope/vim-commentary){:target="\_blank"} (to comment stuff out easily), [`vim-sendtowindow`](https://github.com/karoliskoncevicius/vim-sendtowindow){:target="\_blank"} (a plugin to send selections to a different pane/window; very useful if you have a REPL opened), along with a bunch of plugins for markup and live note taking (see the bottom of this page). 
+
+{:refdef: style="text-align: center;"}
+![alt text](/assets/images/terminal.png "Terminal image")
+{: refdef}
+
+> This is a picture of how my setup looks like (the code is for the [`Survey.jl`](https://github.com/xKDR/Survey.jl){:target="\_blank"} package).
+{: .block-tip }
 
 ## The Julia Language
 
