@@ -26,3 +26,5 @@ This website is updated whenever I have something new to add (check the bottom o
 {: .block-tip }
 
 # News
+
+- **[February 2023]** Our [paper](https://arxiv.org/abs/2209.14222){:target="\_blank"} on the online subset selection problem is out.
