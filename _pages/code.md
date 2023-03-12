@@ -11,6 +11,8 @@ I use the [`zsh`](https://www.zsh.org/){:target="\_blank"} shell configured with
 
 I've configured `vim` to use the [`powerline`](https://github.com/powerline/powerline){:target="\_blank"} status bar ([vim-airline](https://github.com/vim-airline/vim-airline){:target="\_blank"} is an alternative that I also like). For my usual workflow, I use [`fugitive`](https://github.com/tpope/vim-fugitive){:target="\_blank"} for `git` integration, [`NERDTree`](https://github.com/preservim/nerdtree){:target="\_blank"} (a file system explorer), [`vim-commentary`](https://github.com/tpope/vim-commentary){:target="\_blank"} (to comment stuff out easily), [`vim-sendtowindow`](https://github.com/karoliskoncevicius/vim-sendtowindow){:target="\_blank"} (a plugin to send selections to a different pane/window; very useful if you have a REPL opened), along with a bunch of plugins for markup and live note taking (see the bottom of this page). 
 
+I've also installed the [Ubuntu Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/UbuntuMono) on my system. This helps in using some really cool plugins like [`vim-devicons`](https://github.com/ryanoasis/vim-devicons) and [colorls](https://github.com/athityakumar/colorls).
+
 {:refdef: style="text-align: center;"}
 ![alt text](/assets/images/terminal.png "Terminal image")
 {: refdef}
