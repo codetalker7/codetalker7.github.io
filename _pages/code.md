@@ -7,17 +7,52 @@ In my free time, I try to contribute to open source software; my GitHub username
 
 ## Config
 
-I use the [`zsh`](https://www.zsh.org/){:target="\_blank"} shell configured with [Oh My Zsh](https://ohmyz.sh/){:target="\_blank"}. My default text editor is [`vim`](https://github.com/vim/vim){:target="\_blank"}; I also use [`tmux`](https://github.com/tmux/tmux/wiki){:target="\_blank"} to get the most efficiency. I use the [`agnoster`](https://github.com/agnoster/agnoster-zsh-theme){:target="\_blank"} theme for `zsh`. I also use the `git`, [`zsh-autosuggestions`](https://github.com/zsh-users/zsh-autosuggestions){:target="\_blank"} and [`zsh-syntax-highlighting`](https://github.com/zsh-users/zsh-syntax-highlighting){:target="\_blank"} plugins to make life easier for me. You can checkout my config files in [this repository](https://github.com/codetalker7/dotfiles){:target="\_blank"}.
+### OS and Desktop Environment
 
-I've configured `vim` to use the [`powerline`](https://github.com/powerline/powerline){:target="\_blank"} status bar ([vim-airline](https://github.com/vim-airline/vim-airline){:target="\_blank"} is an alternative that I also like). For my usual workflow, I use [`fugitive`](https://github.com/tpope/vim-fugitive){:target="\_blank"} for `git` integration, [`NERDTree`](https://github.com/preservim/nerdtree){:target="\_blank"} (a file system explorer), [`vim-commentary`](https://github.com/tpope/vim-commentary){:target="\_blank"} (to comment stuff out easily), [`vim-sendtowindow`](https://github.com/karoliskoncevicius/vim-sendtowindow){:target="\_blank"} (a plugin to send selections to a different pane/window; very useful if you have a REPL opened), along with a bunch of plugins for markup and live note taking (see the bottom of this page). 
-
-I've also installed the [Ubuntu Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/UbuntuMono) on my system. This helps in using some really cool plugins like [`vim-devicons`](https://github.com/ryanoasis/vim-devicons) and [colorls](https://github.com/athityakumar/colorls).
+I'm running a machine with [Focal Fossa](https://releases.ubuntu.com/focal/){:target="\_blank"} and use [KDE Plasma](https://kde.org/plasma-desktop/){:target="\_blank"} as my desktop environment with the [Layan Dark](https://github.com/vinceliuice/Layan-kde){:target="\_blank"} theme. For `Konsole` (and the [Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/){:target="\_blank"}) I'm using the [Ubuntu Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/UbuntuMono){:target="\_blank"} which is needed for status bars like [`powerline`](https://github.com/powerline/powerline){:target="\_blank"} and tools like [`colorls`](https://github.com/athityakumar/colorls){:target="\_blank"}.
 
 {:refdef: style="text-align: center;"}
-![alt text](/assets/images/terminal.png "Terminal image")
+![alt text](/assets/images/os-and-config.png "Terminal image")
 {: refdef}
 
-> This is a picture of how my setup looks like (the code is for the [`Survey.jl`](https://github.com/xKDR/Survey.jl){:target="\_blank"} package).
+> This is a picture of my configuration. 
+{: .block-tip }
+
+### `zsh` and `tmux`
+
+I use the [`zsh`](https://www.zsh.org/){:target="\_blank"} shell configured with [Oh My Zsh](https://ohmyz.sh/){:target="\_blank"} and the [powerlevel10k](https://github.com/romkatv/powerlevel10k){:target="\_blank"} theme. I use the following plugins for `zsh`.
+
+- `git`
+- [`zsh-autosuggestions`](https://github.com/zsh-users/zsh-autosuggestions){:target="\_blank"}, a very handy plugin which automatically displays suggestions as you're typing.
+- [`zsh-syntax-highlighting`](https://github.com/zsh-users/zsh-syntax-highlighting){:target="\_blank"}, a cool plugin for syntax highlighting for commands.
+- [`zsh-vi-mode`](https://github.com/jeffreytse/zsh-vi-mode){:target="\_blank"}, a plugin to support a vim-like mode for your terminal.
+
+I also use [`tmux`](https://github.com/tmux/tmux/wiki){:target="\_blank"} configured with [Oh my tmux](https://github.com/gpakosz/.tmux){:target="\_blank"} (a `powerline`-like theme for `tmux`) and [`tpm`](https://github.com/tmux-plugins/tpm){:target="\_blank"}. Apart from these, I came across some really cool tools to help speed up the development process.
+
+- [`fzf`](https://github.com/junegunn/fzf){:target="\_blank"}, a must have tool if you're a Linux user. The idea is simple: it takes in a list from `STDIN` and writes to `STDOUT`. The power comes in the use cases it supports.
+- [`bat`](https://github.com/sharkdp/bat){:target="\_blank"}; can be thought of as a modern version of `cat`. 
+- [`colorls`](https://github.com/athityakumar/colorls){:target="\_blank"}, a Ruby gem to beautify the `ls` command with colors and icons.
+
+### `vim`
+
+My default text editor is [`vim`](https://www.vim.org/){:target="\_blank"}. I've configured `vim` to use the [`powerline`](https://github.com/powerline/powerline){:target="\_blank"} status bar ([`vim-airline`](https://github.com/vim-airline/vim-airline){:target="\_blank"} is an alternative that I also like) and [`Vundle`](https://github.com/VundleVim/Vundle.vim){:target="\_blank"}.
+
+For my usual workflow, I use the following plugins.
+
+- [`fugitive`](https://github.com/tpope/vim-fugitive){:target="\_blank"} for `git` integration 
+- [`NERDTree`](https://github.com/preservim/nerdtree){:target="\_blank"} (a file system explorer)
+- [`vim-commentary`](https://github.com/tpope/vim-commentary){:target="\_blank"} (to comment stuff out easily)
+- [`vim-sendtowindow`](https://github.com/karoliskoncevicius/vim-sendtowindow){:target="\_blank"} (a plugin to send selections to a different pane/window; very useful if you have a REPL opened)
+- [`vim-startify`](https://github.com/mhinz/vim-startify){:target="\_blank"}, a fancy start screen
+- [`vim-devicons`](https://github.com/ryanoasis/vim-devicons){:target="\_blank"}, file type icons for `vim`.
+
+Along with these I use a bunch of plugins for markup and live note taking (see the bottom of this page). 
+
+{:refdef: style="text-align: center;"}
+![alt text](/assets/images/survey-example.png "Vim setup image")
+{: refdef}
+
+> This is a picture of how my `vim` setup looks like (the code is for the [`Survey.jl`](https://github.com/xKDR/Survey.jl){:target="\_blank"} package).
 {: .block-tip }
 
 ## The Julia Language
