@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/codetalker7
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://codetalker7.github.io
+  * I am codetalker7 (https://keybase.io/codetalker7) on keybase.
+  * I have a public key ASCTEb7kxO-M8MsRK5FWhYOYiUHWEj2kGpfHhTWGCFUX6Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209311bee4c4ef8cf0cb112b91568583988941d6123da41a97c7853586085517e90a",
+      "host": "keybase.io",
+      "kid": "01209311bee4c4ef8cf0cb112b91568583988941d6123da41a97c7853586085517e90a",
+      "uid": "178925521de3043f85317c5b9e469b19",
+      "username": "codetalker7"
+    },
+    "merkle_root": {
+      "ctime": 1690537717,
+      "hash": "7821113c85e3390ceeadfec7fd0b99c2611b178d6d4a739e0882912fe5ac1586fbdb4b246978cfe7fc39df698917b729c971ee6a601dbf092af56adf95f86986",
+      "hash_meta": "97b5084f203c4744566b1f1797bf3b6ed40ed111cb6828c095be6a0220edc8e0",
+      "seqno": 24741031
+    },
+    "service": {
+      "entropy": "a0cC6neKX+HHDG4+b8k8kwo7",
+      "hostname": "codetalker7.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.2.2"
+  },
+  "ctime": 1690537792,
+  "expire_in": 504576000,
+  "prev": "2fa59471ea0ca6d979ac498c860d20a4d54d32adfd00774a207aa144a40a6372",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgkxG+5MTvjPDLESuRVoWDmIlB1hI9pBqXx4U1hghVF+kKp3BheWxvYWTESpcCB8QgL6WUceoMptl5rEmMhg0gpNVNMq39AHdKIHqhRKQKY3LEIB83ad3aW2p4+30K6476GND43w+3IH5yodRtiUSh3KvrAgHCo3NpZ8RATonk1AK+ysDdfYksd0GOc+sHgqnr4DR41YQLriEa/rEZZajE99x1q8IQOJJdA8tNrXHAH10pzlCqifM10XV6DahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIgd8bPCA2amdpw8OvwmGEKAKc29JeiUZx/QKXVQbzU6o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/codetalker7
+
+==================================================================
