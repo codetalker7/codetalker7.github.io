@@ -10,9 +10,11 @@ permalink: /
 
 Welcome to my homepage! I am a student at the [Chennai Mathematical Institute](https://www.cmi.ac.in/){:target="\_blank"}, a research insitute based in Chennai, India. I am a passionate problem solver, and I also love to write code. You can find a lot of what I do on this site.
 
-Broadly speaking, my interests lie in Computer Science. I like anything that revolves around algorithms, theoretical machine learning, optimization and programming languages (check out my [research work](/pages/research){:target="\_blank"}). In math, I'm mainly interested in algebra, topology and probability theory.
+I'm currently working on problems in the intersection of learning theory, convex optimization and online algorithms. This work involves designing provably efficient online policies for many problems arising frequently in ML domains: the online subset selection problem, for which we introduced an efficient online policy (which is also the first of it's kind to incorporate *hints* in learning optimal subsets), and I'm currently working on algorithmic fairness in the contextual bandit setup. Check out my [research work](/pages/research){:target="\_blank"}.
 
-In my free time, I love contributing to open source software. Check out some of my open source contributions [here](/pages/code){:target="\_blank"}. I also love speed typing ([this](https://data.typeracer.com/pit/profile?user=code_talker){:target="\_blank"} is my last TypeRacer profile, which I've abandoned. I'm currently using [this](https://data.typeracer.com/pit/profile?user=professor_pyg){:target="\_blank"} one).
+I'm also interested in applied areas of ML, including deep learning, natural language processing and automatic differentation (in particular, source to source AD). I also like to learn about programming languages and the ecosystem of toolchains surrounding them. In math, I'm mainly interested in algebra, topology and probability theory.
+
+In my free time, I love contributing to open source software. Check out some of my open source contributions on my [GitHub profile(@codetalker7)](https://github.com/codetalker7){:target="\_blank"} or [here](/pages/code){:target="\_blank"}. I also love speed typing ([this](https://data.typeracer.com/pit/profile?user=code_talker){:target="\_blank"} is my last TypeRacer profile, which I've abandoned. I'm currently using [this](https://data.typeracer.com/pit/profile?user=professor_pyg){:target="\_blank"} one).
 
 This website is updated whenever I have something new to add (check the bottom of this page for major updates), which most likely is at the end of a semester. My contact information is available below. I would love to talk about math/computer science/open source software. A copy of my resume is available on request.
 
