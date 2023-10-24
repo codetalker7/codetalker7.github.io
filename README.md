@@ -10,7 +10,7 @@ permalink: /
 
 Welcome to my homepage! I am a student at the [Chennai Mathematical Institute](https://www.cmi.ac.in/){:target="\_blank"}, a research insitute based in Chennai, India. I am a passionate problem solver, and I also love to write code. You can find a lot of what I do on this site.
 
-I'm currently working on problems in the intersection of learning theory, convex optimization and online algorithms. This work involves designing provably optimal online policies for many problems arising frequently in ML domains: the online subset selection problem, for which we introduced an efficient online policy (which is also the first of it's kind to incorporate *hints* in learning optimal subsets), and I'm currently working on algorithmic fairness in the contextual bandit setup. Check out my [research work](/pages/research){:target="\_blank"}.
+As a part of the [Networks and Learning Group at TIFR Mumbai](https://www.tifr.res.in/~abhishek.sinha/group.html) (led by [Dr. Abhishek Sinha](https://www.tifr.res.in/~abhishek.sinha/)), I'm currently working on problems in the intersection of learning theory, convex optimization and online algorithms. This work involves designing provably optimal online policies for many problems arising frequently in ML domains: the online subset selection problem, for which we introduced an efficient online policy (which is also the first of it's kind to incorporate *hints* in learning optimal subsets), the contextual bandits problem with a new concave $\alpha$-fairness objective, for which we developed the first such policy in the bandit information setup, and I'm currently working on problems in the domain of online meta-learning and multi-task learning. Check out my [research work](/pages/research){:target="\_blank"}.
 
 I'm also interested in applied areas of ML, including deep learning, natural language processing and automatic differentation (in particular, source to source AD). I also like to learn about programming languages and the ecosystem of toolchains surrounding them. In math, I'm mainly interested in algebra, topology and probability theory.
 
@@ -29,5 +29,7 @@ This website is updated whenever I have something new to add (check the bottom o
 {: .block-tip }
 
 # News
+
+- **[October 2023]** Our [paper](https://arxiv.org/abs/2310.14164) on fair contextual bandits is out.
 
 - **[February 2023]** Our [paper](https://arxiv.org/abs/2209.14222){:target="\_blank"} on the online subset selection problem is out.
