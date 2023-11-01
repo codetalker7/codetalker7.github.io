@@ -10,7 +10,7 @@ permalink: /
 
 Welcome to my homepage! I am a student at the [Chennai Mathematical Institute](https://www.cmi.ac.in/){:target="\_blank"}, a research insitute based in Chennai, India. I am a passionate problem solver, and I also love to write code. You can find a lot of what I do on this site.
 
-As a part of the [Networks and Learning Group at TIFR Mumbai](https://www.tifr.res.in/~abhishek.sinha/group.html) (led by [Dr. Abhishek Sinha](https://www.tifr.res.in/~abhishek.sinha/)), I'm currently working on problems in the intersection of learning theory, convex optimization and online algorithms. This work involves designing provably optimal online policies for many problems arising frequently in ML domains: the online subset selection problem, for which we introduced an efficient online policy (which is also the first of it's kind to incorporate *hints* in learning optimal subsets), the contextual bandits problem with a new concave $\alpha$-fairness objective, for which we developed the first such policy in the bandit information setup, and I'm currently working on problems in the domain of online meta-learning and multi-task learning. Check out my [research work](/pages/research){:target="\_blank"}.
+As a part of the [Networks and Learning Group at TIFR Mumbai](https://abhishek-sinha-tifr.github.io/group.html) (led by [Dr. Abhishek Sinha](https://abhishek-sinha-tifr.github.io/)), I'm currently working on problems in the intersection of learning theory, convex optimization and online algorithms. This work involves designing provably optimal online policies for many problems arising frequently in ML domains: the online subset selection problem, for which we introduced an efficient online policy (which is also the first of it's kind to incorporate *hints* in learning optimal subsets), the contextual bandits problem with a new concave $\alpha$-fairness objective, for which we developed the first such policy in the bandit information setup, and I'm currently working on problems in the domain of online meta-learning and multi-task learning. Check out my [research work](/pages/research){:target="\_blank"}.
 
 I'm also interested in applied areas of ML, including deep learning, natural language processing and automatic differentation (in particular, source to source AD). I also like to learn about programming languages and the ecosystem of toolchains surrounding them. In math, I'm mainly interested in algebra, topology and probability theory.
 
@@ -19,6 +19,7 @@ In my free time, I love contributing to open source software. Check out some of 
 This website is updated whenever I have something new to add (check the bottom of this page for major updates), which most likely is at the end of a semester. My contact information is available below. I would love to talk about math/computer science/open source software. A copy of my resume is available on request.
 
 - **Email**: [chaudhary@cmi.ac.in](mailto:chaudhary@cmi.ac.in), [urssidd@gmail.com](mailto:urssidd@gmail.com).
+- **Google Scholar**: [Siddhant Chaudhary](https://scholar.google.com/citations?user=WZ9a08wAAAAJ&hl=en)
 - **Discord**: Siddhant Chaudhary#8409.
 - **LinkedIn**: [Siddhant Chaudhary](https://www.linkedin.com/in/siddhant-chaudhary-84182110a/){:target="\_blank"}.
 - **Keybase**: [Siddhant Chaudhary](https://keybase.io/codetalker7){:target="\_blank"}.
