@@ -22,6 +22,7 @@ This website is updated whenever I have something new to add (check the bottom o
 - **Google Scholar**: [Siddhant Chaudhary](https://scholar.google.com/citations?user=WZ9a08wAAAAJ&hl=en)
 - **Discord**: Siddhant Chaudhary#8409.
 - **LinkedIn**: [Siddhant Chaudhary](https://www.linkedin.com/in/siddhant-chaudhary-84182110a/){:target="\_blank"}.
+- **Twitter**: [Siddhant Chaudhary](https://twitter.com/sid_codetalker7)
 - **Keybase**: [Siddhant Chaudhary](https://keybase.io/codetalker7){:target="\_blank"}.
 
 > ##### About this website
