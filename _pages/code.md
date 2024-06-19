@@ -1,84 +1,41 @@
 ---
-title: Code
+title: Config 
 layout: post
 ---
 
-In my free time, I try to contribute to open source software; my GitHub username is [@codetalker7](https://github.com/codetalker7){:target="\_blank"}. On this page I'll try to describe the different projects I've contributed to, along with any other things that make life easy for me.
+## Dotfiles
 
-## Config
+All dotfiles containing my config can be found at my [dotfiles](https://github.com/codetalker7/dotfiles) repository. Feel free to go through it! I've included a bunch of (not-so-well-written) instructions on most of the things that I use, but this page describes things in more clearly.
 
-### OS and Desktop Environment
+## OS and Desktop Environment
 
-I'm running a machine with [Focal Fossa](https://releases.ubuntu.com/focal/){:target="\_blank"} and use [KDE Plasma](https://kde.org/plasma-desktop/){:target="\_blank"} as my desktop environment with the [Layan Dark](https://github.com/vinceliuice/Layan-kde){:target="\_blank"} theme. For `Konsole` (and the [Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/){:target="\_blank"}) I'm using the [Ubuntu Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/UbuntuMono){:target="\_blank"} which is needed for status bars like [`powerline`](https://github.com/powerline/powerline){:target="\_blank"} and tools like [`colorls`](https://github.com/athityakumar/colorls){:target="\_blank"}.
+- **OS**: I recommend [Ubuntu](https://ubuntu.com/) (currently I'm using [Jammy Jellyfish](https://releases.ubuntu.com/jammy/)). Ubuntu is well-maintained, easy to use and also really easy to set-up as well (dual-booting a Windows machine with Ubuntu distributions is easy). [Pop!OS](https://pop.system76.com/) is another distribution I recommend.
 
-{:refdef: style="text-align: center;"}
-![alt text](/assets/images/os-and-config.png "Terminal image")
-{: refdef}
+- **DE**: I recommend [Xfce](https://xfce.org/). It's extremely efficient on the hardware, and has a really simple interface. [KDE Plasma](https://kde.org/plasma-desktop/) is another great choice.
 
-> This is a picture of my configuration. 
-{: .block-tip }
+## Terminal Emulator
 
-### `zsh` and `tmux`
+Almost any emulator will work just fine; I use [Alacritty](https://github.com/alacritty/alacritty). It can be configured easily (see my [config](https://github.com/codetalker7/dotfiles/blob/main/.config/alacritty/alacritty.yml)). I use the [dracula](https://draculatheme.com/alacritty) theme.
 
-I use the [`zsh`](https://www.zsh.org/){:target="\_blank"} shell configured with [Oh My Zsh](https://ohmyz.sh/){:target="\_blank"} and the [powerlevel10k](https://github.com/romkatv/powerlevel10k){:target="\_blank"} theme. I use the following plugins for `zsh`.
+## The shell
 
+I use [zsh](https://www.zsh.org/), configured with [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) with the [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme (see my [p10k config](https://github.com/codetalker7/dotfiles/blob/main/.p10k.zsh)). To render glyphs and other icons, I use the [Ubuntu Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/UbuntuMono). I also use some plugins, which make life easy: 
 - `git`
 - [`zsh-autosuggestions`](https://github.com/zsh-users/zsh-autosuggestions){:target="\_blank"}, a very handy plugin which automatically displays suggestions as you're typing.
 - [`zsh-syntax-highlighting`](https://github.com/zsh-users/zsh-syntax-highlighting){:target="\_blank"}, a cool plugin for syntax highlighting for commands.
-- [`zsh-vi-mode`](https://github.com/jeffreytse/zsh-vi-mode){:target="\_blank"}, a plugin to support a vim-like mode for your terminal.
 
-I also use [`tmux`](https://github.com/tmux/tmux/wiki){:target="\_blank"} configured with [Oh my tmux](https://github.com/gpakosz/.tmux){:target="\_blank"} (a `powerline`-like theme for `tmux`) and [`tpm`](https://github.com/tmux-plugins/tpm){:target="\_blank"}. Apart from these, I came across some really cool tools to help speed up the development process.
+## Terminal multiplexer
+
+I use [tmux](https://github.com/tmux/tmux/wiki) as my terminal multiplexer, configured with [ohmytmux](https://github.com/gpakosz/.tmux). For details about how I've configured this along with my configuration files, please see step 3 of this [README](https://github.com/codetalker7/dotfiles?tab=readme-ov-file#steps-to-carry-out). I use the [dracula](https://github.com/atgmello/dracula.omt) theme for tmux.
+
+## Must have utilities
+
+There are a bunch of must-haves which I highly recommend:
 
 - [`fzf`](https://github.com/junegunn/fzf){:target="\_blank"}, a must have tool if you're a Linux user. The idea is simple: it takes in a list from `STDIN` and writes to `STDOUT`. The power comes in the use cases it supports.
 - [`bat`](https://github.com/sharkdp/bat){:target="\_blank"}; can be thought of as a modern version of `cat`. 
 - [`colorls`](https://github.com/athityakumar/colorls){:target="\_blank"}, a Ruby gem to beautify the `ls` command with colors and icons.
-
-### `vim`
-
-My default text editor is [`vim`](https://www.vim.org/){:target="\_blank"}. I've configured `vim` to use the [`powerline`](https://github.com/powerline/powerline){:target="\_blank"} status bar ([`vim-airline`](https://github.com/vim-airline/vim-airline){:target="\_blank"} is an alternative that I also like) and [`Vundle`](https://github.com/VundleVim/Vundle.vim){:target="\_blank"}.
-
-For my usual workflow, I use the following plugins.
-
-- [`fugitive`](https://github.com/tpope/vim-fugitive){:target="\_blank"} for `git` integration 
-- [`NERDTree`](https://github.com/preservim/nerdtree){:target="\_blank"} (a file system explorer)
-- [`vim-commentary`](https://github.com/tpope/vim-commentary){:target="\_blank"} (to comment stuff out easily)
-- [`vim-sendtowindow`](https://github.com/karoliskoncevicius/vim-sendtowindow){:target="\_blank"} (a plugin to send selections to a different pane/window; very useful if you have a REPL opened)
-- [`vim-startify`](https://github.com/mhinz/vim-startify){:target="\_blank"}, a fancy start screen
-- [`vim-devicons`](https://github.com/ryanoasis/vim-devicons){:target="\_blank"}, file type icons for `vim`.
-
-Along with these I use a bunch of plugins for markup and live note taking (see the bottom of this page). 
-
-{:refdef: style="text-align: center;"}
-![alt text](/assets/images/survey-example.png "Vim setup image")
-{: refdef}
-
-> This is a picture of how my `vim` setup looks like (the code is for the [`Survey.jl`](https://github.com/xKDR/Survey.jl){:target="\_blank"} package).
-{: .block-tip }
-
-## The Julia Language
-
-I was part of 2022 edition of [Google Summer of Code](https://summerofcode.withgoogle.com/){:target="\_blank"}, where I was selected as a contributor for [The Julia Language](https://julialang.org/jsoc/){:target="\_blank"}. My project was to [make improvements to the CRRao.jl package](https://summerofcode.withgoogle.com/archive/2022/projects/wbPGeN3c){:target="\_blank"}. I made a [final report](https://github.com/xKDR/GSoC/blob/main/2022/CRRao.jl/siddhant_chaudhary_final.md){:target="\_blank"} for the same.
-
-Apart from this, I've contributed to the following Julia packages as well.
-- [Lowess.jl](https://github.com/xKDR/Lowess.jl){:target="\_blank"}, which is a pure Julia implementation of the LOWESS smoother.
-- [NighttimeLights.jl](https://github.com/xKDR/NighttimeLights.jl){:target="\_blank"}, which is a package to analyze satellite data. We also worked with [Rasters.jl](https://rafaqz.github.io/Rasters.jl/dev/){:target="\_blank"}.
-- [TSFrames.jl](https://github.com/xKDR/TSx.jl){:target="\_blank"}, a package for Timeseries in Julia.
-- [Survey.jl](https://github.com/xKDR/Survey.jl){:target="\_blank"}, a package for complex survey analysis in Julia.
-
-All of this work has been possible because of the help I got from people at the [xKDR](https://www.xkdr.org/){:target="\_blank"} organization.
-
-## The Document Foundation
-
-I've also [contributed](https://wiki.documentfoundation.org/index.php?title=Development/Developers&oldid=493481){:target="\_blank"} to the [LibreOffice](https://www.libreoffice.org/){:target="\_blank"} suite. My work mainly revolved around tinkering with LO's UI, using tools like [gtk](https://www.gtk.org/){:target="\_blank"} and [Glade](https://glade.gnome.org/){:target="\_blank"}, along with working with LO's registry; for example, here are two of my patches.
-- A patch for the [Paste Special Dialogue](https://git.libreoffice.org/core/+/9d0ca8ee3f0c2a4e6c0bebec6ef1523cd04e849a%5E%21){:target="\_blank"}
-- A patch for the [open-locked query box](https://git.libreoffice.org/core/+/ff9ff6018bea7c1a4524c8edca8ef554c74e4b3f%5E%21){:target="\_blank"}.
-
-LO has one of the best workflows I've encountered thus far. They use [Gerrit](https://www.gerritcodereview.com/){:target="\_blank"} for code review and [Jenkins](https://www.jenkins.io/){:target="\_blank"} for CI, along with a bunch of other tools which they have embedded in their codebase.
-
-> ##### Get Involved!
->
-> If you want to contribute to OSS and like C++, LO might be a great choice to get started. LO's core developers very actively look for new contributors, and are always available to help. It's not hard to [get involved](https://www.libreoffice.org/community/get-involved/){:target="\_blank"}.
-{: .block-tip }
+- [`ripgrep`](https://github.com/BurntSushi/ripgrep): this is needed for `telescope.nvim` (which I'll discuss below).
 
 ## Typesetting
 

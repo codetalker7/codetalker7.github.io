@@ -8,15 +8,17 @@ permalink: /
 ![alt text](/assets/images/homepage-modified.png "My picture"){:width="250px"}
 {: refdef}
 
-Welcome to my homepage! I am a student at the [Chennai Mathematical Institute](https://www.cmi.ac.in/){:target="\_blank"}, a research insitute based in Chennai, India. I am a passionate problem solver, and I also love to write code. You can find a lot of what I do on this site.
+Welcome to my homepage! I am a passionate problem solver, and I also love to write code. You can find a lot of what I do on this site.
 
-As a part of the [Networks and Learning Group at TIFR Mumbai](https://abhishek-sinha-tifr.github.io/group.html) (led by [Dr. Abhishek Sinha](https://abhishek-sinha-tifr.github.io/)), I'm currently working on problems in the intersection of learning theory, convex optimization and online algorithms. This work involves designing provably optimal online policies for many problems arising frequently in ML domains: the online subset selection problem, for which we introduced an efficient online policy (which is also the first of it's kind to incorporate *hints* in learning optimal subsets), the contextual bandits problem with a new concave $\alpha$-fairness objective, for which we developed the first such policy in the bandit information setup, and I'm currently working on problems in the domain of online meta-learning and multi-task learning. Check out my [research work](/pages/research){:target="\_blank"}.
+As part of the [Laboratory for Computational Social Systems (LCS2) @IIT Delhi](https://www.lcs2.in/people_restructured.html) (led by [Dr. Tanmoy Chakraborty](https://tanmoychak.com/)) as a research assistant, I'm currently working on problems revolving around *large language models* (LLMs), particularly problems on model and inference efficiency, and fact-discovery capabilities of LLMs. 
 
-I'm also interested in applied areas of ML, including deep learning, natural language processing and automatic differentation (in particular, source to source AD). I also like to learn about programming languages and the ecosystem of toolchains surrounding them. In math, I'm mainly interested in algebra, topology and probability theory.
+During my masters ([@CMI](https://www.cmi.ac.in/)), I also worked as a research assistant at the [Networks and Learning Group at TIFR Mumbai](https://abhishek-sinha-tifr.github.io/group.html) (led by [Dr. Abhishek Sinha](https://abhishek-sinha-tifr.github.io/)), wherein I worked on problems in the intersection of learning theory, convex optimization and online algorithms. This work involved designing provably optimal online policies for many problems arising frequently in ML domains: the online subset selection problem, for which we introduced an efficient online policy (which is also the first of it's kind to incorporate *hints* in learning optimal subsets), the contextual bandits problem with a new concave $\alpha$-fairness objective, for which we developed the first such policy in the bandit information setup, and problems in the domain of online meta-learning and multi-task learning. Check out my [research work](/pages/research){:target="\_blank"}.
 
-In my free time, I love contributing to open source software. Check out some of my open source contributions on my [GitHub profile(@codetalker7)](https://github.com/codetalker7){:target="\_blank"} or [here](/pages/code){:target="\_blank"}. I also love speed typing ([this](https://data.typeracer.com/pit/profile?user=code_talker){:target="\_blank"} is my last TypeRacer profile, which I've abandoned. I'm currently using [this](https://data.typeracer.com/pit/profile?user=professor_pyg){:target="\_blank"} one).
+I'm also interested in applied areas of ML, including deep learning, natural language processing (particularly LLMs) and automatic differentation (in particular, source to source AD. Art like [Zygote.jl](https://github.com/FluxML/Zygote.jl)). I also like to learn about programming languages and the ecosystem of toolchains surrounding them. In math, I'm mainly interested in algebra, topology and probability theory.
 
-This website is updated whenever I have something new to add (check the bottom of this page for major updates), which most likely is at the end of a semester. My contact information is available below. I would love to talk about math/computer science/open source software. A copy of my resume is available on request.
+In my free time, I love contributing to open source software. Check out some of my open source contributions on my [GitHub profile(@codetalker7)](https://github.com/codetalker7){:target="\_blank"} or [here](/pages/code){:target="\_blank"}. I also love speed typing ([this](https://data.typeracer.com/pit/profile?user=code_talker){:target="\_blank"} is my last TypeRacer profile, which I've abandoned. I'm currently using [this](https://data.typeracer.com/pit/profile?user=professor_pyg){:target="\_blank"} one). I'm also a huge NBA fan, and I love listening to and playing metal music (one of my favorite bands is [Periphery](https://periphery.net/))!
+
+This website is updated whenever I have something new to add (check the bottom of this page for major updates). My contact information is available below. I would love to talk about math/computer science/open source software. A copy of my resume is available on request.
 
 - **Email**: [chaudhary@cmi.ac.in](mailto:chaudhary@cmi.ac.in), [urssidd@gmail.com](mailto:urssidd@gmail.com).
 - **Google Scholar**: [Siddhant Chaudhary](https://scholar.google.com/citations?user=WZ9a08wAAAAJ&hl=en)
@@ -32,6 +34,12 @@ This website is updated whenever I have something new to add (check the bottom o
 
 # News
 
-- **[October 2023]** Our [paper](https://arxiv.org/abs/2310.14164) on fair contextual bandits is out.
+- **[06/2024]** &emsp;Our [paper](https://arxiv.org/abs/2310.14164){:target="\_blank"} on fair contextual bandits accepted at [FoRLaC@ICML2024](https://rl-control-theory.github.io/){:target="\_blank"}!
 
-- **[February 2023]** Our [paper](https://arxiv.org/abs/2209.14222){:target="\_blank"} on the online subset selection problem is out.
+- **[05/2024]** &emsp;Joined [LCS2@IITD](https://www.lcs2.in/){:target="\_blank"} as an RA!
+
+- **[05/2024]** &emsp;Accepted as a [Google Summer of Code 2024 contributor](https://julialang.org/blog/2024/05/gsoc-2024-fellows/){:target="\_blank"} (my second time doing GSoC)! Will be working on a [GenAI project](https://summerofcode.withgoogle.com/programs/2024/projects/GauGUFoo){:target="\_blank"} for [The Julia Language](https://julialang.org/){:target="\_blank"}.
+
+- **[10/2023]** &emsp;Our [paper](https://arxiv.org/abs/2310.14164){:target="\_blank"} on fair contextual bandits is out.
+
+- **[02/2023]** &emsp;Our [paper](https://arxiv.org/abs/2209.14222){:target="\_blank"} on the online subset selection problem is out.
