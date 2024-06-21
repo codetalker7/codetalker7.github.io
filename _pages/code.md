@@ -59,6 +59,10 @@ There are a bunch of must-haves which I highly recommend:
 
 I use [Brave](https://brave.com/){:target="\_blank"} and [Firefox](https://www.mozilla.org/en-US/firefox/){:target="\_blank"}. To get the most efficient and the best browsing experience, I also prefer Vim-like key bindings on my browser. For Chromium-based browsers, I prefer [Vimium](https://vimium.github.io/){:target="\_blank"}. If you use Firefox, you can use something like [Tridactyl](https://github.com/tridactyl/tridactyl){:target="\_blank"}. There are other extensions as well (just a quick search away).
 
+## Image Viewer
+
+[`feh`](https://feh.finalrewind.org/){:target="\_blank"} is a nice and efficient tool for this. However, it doesn't have support for GIFs. I prefer GNOME's [`eog`](https://help.gnome.org/users/eog/stable/){:target="\_blank"}.
+
 ## Typesetting
 
 I regularly typeset any notes that I take while attending classes or self-studying math/computer science/code. I primarily use three approaches to typeset notes, depending upon the usecase.
@@ -71,3 +75,7 @@ I regularly typeset any notes that I take while attending classes or self-studyi
     - This option is really good for live note-taking (ex., in a lecture).
 
 3. However, it's best to just get your own TeX distribution. [I covered this in step 5 of this README](https://github.com/codetalker7/dotfiles?tab=readme-ov-file#latex-installation-and-setup){:target="\_blank"}. I use [`zathura`](https://pwmt.org/projects/zathura/installation/){:target="\_blank"} as my PDF viewer, along with [`latexmk`](https://mg.readthedocs.io/latexmk.html#){:target="\_blank"} (it's like a `make` for LaTeX projects). To complement these tools, I also use the [vimtex](https://github.com/lervag/vimtex?tab=readme-ov-file){:target="\_blank"} plugin for my `nvim` configuration, along with the [texlab](https://github.com/latex-lsp/texlab){:target="\_blank"} LSP.
+
+## Document and bibliography management
+
+If you maintain a personal knowledge base or if you read a lot of scientific papers, then I recommend using a personal knowledge base manager. One of the best tools (among others) I've come across for this is [`papis`](https://github.com/papis/papis?tab=readme-ov-fil). Their extensive documentation contains most of the information you will need; using this tool, you can create your own personal library (of documents, notes etc.) which is easily managable using a nice CLI. Another nice feature of this tool is extremely easy bibliography management.
