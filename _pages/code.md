@@ -54,6 +54,14 @@ There are a bunch of must-haves which I highly recommend:
 - [`bat`](https://github.com/sharkdp/bat){:target="\_blank"}; can be thought of as a modern version of `cat`. 
 - [`colorls`](https://github.com/athityakumar/colorls){:target="\_blank"}, a Ruby gem to beautify the `ls` command with colors and icons.
 - [`ripgrep`](https://github.com/BurntSushi/ripgrep){:target="\_blank"}: this is needed for `telescope.nvim` (which I discussed above).
+- [`tldr`](https://tldr.sh/) pages, can be thought of as a friendlier `man`. Try doing `tldr fzf`. Use this first to get a hang of the command before using `man`.
+- [`rclone`](https://rclone.org/). I highly recommend this tool. It's essentially `rsync`, but for cloud storage. Supports a lot of cloud providers.
+- [`git-secret`](https://sobolevn.me/git-secret/). This uses your GPG key to encrypt sensitive data, which you can then push to your repository. Highly recommended if you want to version-control sensitive data.
+
+> ##### Never push sensitive data to cloud storage. 
+>
+> Make sure not to push any sensitive data (like passwords, token IDs, private keys) to any cloud storage, or even [private repositories](https://www.techradar.com/news/microsoft-github-account-reportedly-hit-in-huge-cyberattack). It's better to save encrypted versions of sensitive data instead; but even in that case, make sure to never make the encryption key public! 
+{: .block-danger }
 
 ## Browser
 
