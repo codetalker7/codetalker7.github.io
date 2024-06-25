@@ -13,7 +13,7 @@ url: "https://codetalker7.github.io" # the base hostname & protocol for your sit
 baseurl: "" # the subpath of your site, e.g. /blog
 rss:              RSS
 
-# twitter_username:
+twitter_username: sid_codetalker7
 github_username: codetalker7
 
 # Build settings
@@ -49,6 +49,7 @@ exclude:
 collections:
   pages:
     output: true
+    sort_by: date
     permalink: /:collection/:path/
 
 page_width: 800px
