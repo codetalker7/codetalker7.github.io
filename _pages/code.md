@@ -57,6 +57,7 @@ There are a bunch of must-haves which I highly recommend:
 - [`tldr`](https://tldr.sh/) pages, can be thought of as a friendlier `man`. Try doing `tldr fzf`. Use this first to get a hang of the command before using `man`.
 - [`rclone`](https://rclone.org/). I highly recommend this tool. It's essentially `rsync`, but for cloud storage. Supports a lot of cloud providers.
 - [`git-secret`](https://sobolevn.me/git-secret/). This uses your GPG key to encrypt sensitive data, which you can then push to your repository. Highly recommended if you want to version-control sensitive data.
+- [`htop`](https://htop.dev/) for CPU processes and [`nvtop`](https://github.com/Syllo/nvtop) for GPU processes. Use these for monitoring system resources. These are much better than the standard `top` and `nvidia-smi`.
 
 > ##### Never push sensitive data to cloud storage. 
 >
