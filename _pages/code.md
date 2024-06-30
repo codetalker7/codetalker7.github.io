@@ -5,7 +5,7 @@ layout: post
 
 ## Dotfiles
 
-All dotfiles containing my config can be found at my [dotfiles](https://github.com/codetalker7/dotfiles){:target="\_blank"} repository. Feel free to go through it! I've included a bunch of (not-so-well-written) instructions on most of the things that I use, but this page describes things in more clearly.
+All dotfiles containing my config can be found at my [dotfiles](https://github.com/codetalker7/dotfiles){:target="\_blank"} repository. Feel free to go through it! I use [`yadm`](https://yadm.io/docs/overview){:target="\_blank"} to maintain my configuration, so it should be straightforward to reproduce it. My old configuration lives in the `old-dotfiles` branch of the repository.
 
 ## OS and Desktop Environment
 
@@ -19,25 +19,26 @@ Almost any emulator will work just fine; I use [Alacritty](https://github.com/al
 
 ## The shell
 
-I use [zsh](https://www.zsh.org/){:target="\_blank"}, configured with [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh){:target="\_blank"} with the [powerlevel10k](https://github.com/romkatv/powerlevel10k){:target="\_blank"} theme (see my [p10k config](https://github.com/codetalker7/dotfiles/blob/main/.p10k.zsh){:target="\_blank"}). To render glyphs and other icons, I use the [Ubuntu Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/UbuntuMono){:target="\_blank"}. I also use some plugins, which make life easy: 
-- `git`
-- [`zsh-autosuggestions`](https://github.com/zsh-users/zsh-autosuggestions){:target="\_blank"}, a very handy plugin which automatically displays suggestions as you're typing.
-- [`zsh-syntax-highlighting`](https://github.com/zsh-users/zsh-syntax-highlighting){:target="\_blank"}, a cool plugin for syntax highlighting for commands.
+I use [fish](https://fishshell.com/){:target="\_blank"}, along with the [fisher](https://fishshell.com/){:target="\_blank"} plugin manager. I used to work with [`zsh`](https://www.zsh.org){:target="\_blank"} (you can find my configuration in the `old-dotfiles` branch). To render glyphs and other icons, I use the [Ubuntu Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/UbuntuMono){:target="\_blank"}.
 
 ## Terminal multiplexer
 
-I use [tmux](https://github.com/tmux/tmux/wiki){:target="\_blank"} as my terminal multiplexer, configured with [ohmytmux](https://github.com/gpakosz/.tmux){:target="\_blank"}. For details about how I've configured this along with my configuration files, please see step 3 of this [README](https://github.com/codetalker7/dotfiles?tab=readme-ov-file#steps-to-carry-out){:target="\_blank"}. I use the [dracula](https://github.com/atgmello/dracula.omt){:target="\_blank"} theme for tmux.
+I use [tmux](https://github.com/tmux/tmux/wiki){:target="\_blank"} as my terminal multiplexer, with the [tpm](https://github.com/tmux-plugins/tpm){:target="\_blank"} plugin manager. I use a pretty standard config (please see the respective dotfile). The theme is configured with [tmux2k](https://github.com/2KAbhishek/tmux2k){:target="\_blank"}. Here are some important plugins which I use: 
+
+- [tmux-yank](https://github.com/2KAbhishek/tmux2k){:target="\_blank"}, a nice copy-mode for tmux.
+- [tmux-fzf-url](https://github.com/wfxr/tmux-fzf-url){:target="\_blank"}, to open urls from within tmux.
+- [tmux-fingers](https://github.com/Morantron/tmux-fingers){:target="\_blank"}, a Vimium-like copy-paste plugin.
 
 ## Text editor
 
 I use a heavily configured [`nvim`](https://github.com/latex-lsp/texlab){:target="\_blank"} setup. Please see [my full configuration](https://github.com/codetalker7/dotfiles/tree/main/.config/nvim){:target="\_blank"}. In particular, see the [list of plugins which I use](https://github.com/codetalker7/dotfiles/blob/main/.config/nvim/lua/plugins.lua){:target="\_blank"}. You can read about each plugin in it's respective repository (and do check them out, they make life really easy!). Here is a brief description of some of the plugins:
 
-- `packer.nvim`: a plugin manager. 
+- `lazy.nvim`: a plugin manager. 
 - `nvim-lspconfig`: some off-the-shelf LSP settings.
 - `trouble.nvim`: code actions and other diagnostic information.
 - `nvim-tree`: a tree-based navigator.
 - `nvim-web-devicons`: icons for the navigator. Looks really good. Needs a Nerd font.
-- `vim-startify`: a nice start screen.
+- `dashboard.nvim`: a nice start screen.
 - `vim-slime`: a plugin used to send selections across tmux panes. One of the best plugins I've come across. This is needed if you have a REPL opened in another pane.
 - `Comment.nvim`: a plugin to make commenting easy.
 - `markdown-preview.nvim`: render Markdown in your favorite browser.
@@ -83,7 +84,7 @@ I regularly typeset any notes that I take while attending classes or self-studyi
     - To watch the files as I'm editing them, I use [`docwatch`](https://github.com/elcorto/docwatch){:target="\_blank"}, which has support for [`pandoc`](https://pandoc.org/){:target="\_blank"} by default. Though other tools can be used for this. Find out more information about this at [this repository](https://github.com/codetalker7/notes-template){:target="\_blank"}.
     - This option is really good for live note-taking (ex., in a lecture).
 
-3. However, it's best to just get your own TeX distribution. [I covered this in step 5 of this README](https://github.com/codetalker7/dotfiles?tab=readme-ov-file#latex-installation-and-setup){:target="\_blank"}. I use [`zathura`](https://pwmt.org/projects/zathura/installation/){:target="\_blank"} as my PDF viewer, along with [`latexmk`](https://mg.readthedocs.io/latexmk.html#){:target="\_blank"} (it's like a `make` for LaTeX projects). To complement these tools, I also use the [vimtex](https://github.com/lervag/vimtex?tab=readme-ov-file){:target="\_blank"} plugin for my `nvim` configuration, along with the [texlab](https://github.com/latex-lsp/texlab){:target="\_blank"} LSP.
+3. However, it's best to just get your own TeX distribution. [I covered this in step 5 of this README](https://github.com/codetalker7/dotfiles/tree/old-dotfiles?tab=readme-ov-file#latex-installation-and-setup){:target="\_blank"}. I use [`zathura`](https://pwmt.org/projects/zathura/installation/){:target="\_blank"} as my PDF viewer, along with [`latexmk`](https://mg.readthedocs.io/latexmk.html#){:target="\_blank"} (it's like a `make` for LaTeX projects). To complement these tools, I also use the [vimtex](https://github.com/lervag/vimtex?tab=readme-ov-file){:target="\_blank"} plugin for my `nvim` configuration, along with the [texlab](https://github.com/latex-lsp/texlab){:target="\_blank"} LSP.
 
 ## Document and bibliography management
 
