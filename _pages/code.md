@@ -13,6 +13,10 @@ All dotfiles containing my config can be found at my [dotfiles](https://github.c
 
 - **DE**: I recommend [Xfce](https://xfce.org/){:target="\_blank"}. It's extremely efficient on the hardware, and has a really simple interface. [KDE Plasma](https://kde.org/plasma-desktop/){:target="\_blank"} is another great choice.
 
+## Window Manager
+
+I use the [`i3`](https://i3wm.org/){:target="\_blank"} window manager. I use it as a standalone WM and not as a part of Xfce. This is so that I can switch between `i3` and `xfce4-wm` if someone not used to tiling WMs wants to use my machine.
+
 ## Terminal Emulator
 
 Almost any emulator will work just fine; I use [Alacritty](https://github.com/alacritty/alacritty){:target="\_blank"}. It can be configured easily (see my [config](https://github.com/codetalker7/dotfiles/blob/main/.config/alacritty/alacritty.yml){:target="\_blank"}). I use the [dracula](https://draculatheme.com/alacritty){:target="\_blank"} theme.
