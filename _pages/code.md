@@ -99,4 +99,4 @@ I regularly typeset any notes that I take while attending classes or self-studyi
 
 ## Document and bibliography management
 
-If you maintain a personal knowledge base or if you read a lot of scientific papers, then I recommend using a personal knowledge base manager. One of the best tools (among others) I've come across for this is [`papis`](https://github.com/papis/papis?tab=readme-ov-fil){:target="\_blank"}. Their extensive documentation contains most of the information you will need; using this tool, you can create your own personal library (of documents, notes etc.) which is easily managable using a nice CLI. Another nice feature of this tool is extremely easy bibliography management.
+[Check out my blogpost on this]({{ site.baseurl }}{% link _posts/2024-07-07-obsidian.md %}).
