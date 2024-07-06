@@ -7,6 +7,12 @@ layout: post
 
 All dotfiles containing my config can be found at my [dotfiles](https://github.com/codetalker7/dotfiles){:target="\_blank"} repository. Feel free to go through it! I use [`yadm`](https://yadm.io/docs/overview){:target="\_blank"} to maintain my configuration, so it should be straightforward to reproduce it. My old configuration lives in the `old-dotfiles` branch of the repository.
 
+> ##### `dotfiles` always contains the most recent information. 
+>
+> If you want to look at the most recent configuration I use, the best way is to simply look at the `dotfiles` repository. Although this page describes a lot of it, it doesn't contain everything. Also, I release specific snapshots of what I consider to be the most stable versions of my config. Check that out in the [`Releases`](https://github.com/codetalker7/dotfiles/releases) section.
+{: .block-tip }
+
+
 ## OS and Desktop Environment
 
 - **OS**: I recommend [Ubuntu](https://ubuntu.com/){:target="\_blank"} (currently I'm using [Jammy Jellyfish](https://releases.ubuntu.com/jammy/){:target="\_blank"}). Ubuntu is well-maintained, easy to use and also really easy to set-up as well (dual-booting a Windows machine with Ubuntu distributions is easy). [Pop!OS](https://pop.system76.com/){:target="\_blank"} is another distribution I recommend.
@@ -59,14 +65,15 @@ There are a bunch of must-haves which I highly recommend:
 - [`bat`](https://github.com/sharkdp/bat){:target="\_blank"}; can be thought of as a modern version of `cat`. 
 - [`colorls`](https://github.com/athityakumar/colorls){:target="\_blank"}, a Ruby gem to beautify the `ls` command with colors and icons.
 - [`ripgrep`](https://github.com/BurntSushi/ripgrep){:target="\_blank"}: this is needed for `telescope.nvim` (which I discussed above).
-- [`tldr`](https://tldr.sh/) pages, can be thought of as a friendlier `man`. Try doing `tldr fzf`. Use this first to get a hang of the command before using `man`.
-- [`rclone`](https://rclone.org/). I highly recommend this tool. It's essentially `rsync`, but for cloud storage. Supports a lot of cloud providers.
-- [`git-secret`](https://sobolevn.me/git-secret/). This uses your GPG key to encrypt sensitive data, which you can then push to your repository. Highly recommended if you want to version-control sensitive data.
-- [`htop`](https://htop.dev/) for CPU processes and [`nvtop`](https://github.com/Syllo/nvtop) for GPU processes. Use these for monitoring system resources. These are much better than the standard `top` and `nvidia-smi`.
+- [`tldr`](https://tldr.sh/){:target="\_blank"} pages, can be thought of as a friendlier `man`. Try doing `tldr fzf`. Use this first to get a hang of the command before using `man`.
+- [`rclone`](https://rclone.org/){:target="\_blank"}. I highly recommend this tool. It's essentially `rsync`, but for cloud storage. Supports a lot of cloud providers.
+- [`syncthing`](https://syncthing.net/){:target="\_blank"}, if you want to sync data across different devices you use (like laptops, a remote server, or your phone/tablet).
+- [`git-secret`](https://sobolevn.me/git-secret/){:target="\_blank"}. This uses your GPG key to encrypt sensitive data, which you can then push to your repository. Highly recommended if you want to version-control sensitive data.
+- [`htop`](https://htop.dev/){:target="\_blank"} for CPU processes and [`nvtop`](https://github.com/Syllo/nvtop){:target="\_blank"} for GPU processes. Use these for monitoring system resources. These are much better than the standard `top` and `nvidia-smi`.
 
 > ##### Never push sensitive data to cloud storage. 
 >
-> Make sure not to push any sensitive data (like passwords, token IDs, private keys) to any cloud storage, or even [private repositories](https://www.techradar.com/news/microsoft-github-account-reportedly-hit-in-huge-cyberattack). It's better to save encrypted versions of sensitive data instead; but even in that case, make sure to never make the encryption key public! 
+> Make sure not to push any sensitive data (like passwords, token IDs, private keys) to any cloud storage, or even [private repositories](https://www.techradar.com/news/microsoft-github-account-reportedly-hit-in-huge-cyberattack){:target="\_blank"}. It's better to save encrypted versions of sensitive data instead; but even in that case, make sure to never make the encryption key public! 
 {: .block-danger }
 
 ## Browser
@@ -81,7 +88,7 @@ I use [Brave](https://brave.com/){:target="\_blank"} and [Firefox](https://www.m
 
 I regularly typeset any notes that I take while attending classes or self-studying math/computer science/code. I primarily use three approaches to typeset notes, depending upon the usecase.
 
-1. For immediate use and online collaboration (with cloud storage), [Overleaf](https://www.overleaf.com/) is the best option.
+1. For immediate use and online collaboration (with cloud storage), [Overleaf](https://www.overleaf.com/){:target="\_blank"} is the best option.
 
 2. For note taking in Markdown (`.md` files, which can be rendered using your favorite text editor, or a browser), I use the following tools: 
     - [`pandoc`](https://pandoc.org/){:target="\_blank"}, used to convert from one markup format to another. This is a really helpful tool, because it has `pdflatex`, `xelatex` and `lualatex` support for `markdown`.
@@ -92,4 +99,4 @@ I regularly typeset any notes that I take while attending classes or self-studyi
 
 ## Document and bibliography management
 
-If you maintain a personal knowledge base or if you read a lot of scientific papers, then I recommend using a personal knowledge base manager. One of the best tools (among others) I've come across for this is [`papis`](https://github.com/papis/papis?tab=readme-ov-fil). Their extensive documentation contains most of the information you will need; using this tool, you can create your own personal library (of documents, notes etc.) which is easily managable using a nice CLI. Another nice feature of this tool is extremely easy bibliography management.
+If you maintain a personal knowledge base or if you read a lot of scientific papers, then I recommend using a personal knowledge base manager. One of the best tools (among others) I've come across for this is [`papis`](https://github.com/papis/papis?tab=readme-ov-fil){:target="\_blank"}. Their extensive documentation contains most of the information you will need; using this tool, you can create your own personal library (of documents, notes etc.) which is easily managable using a nice CLI. Another nice feature of this tool is extremely easy bibliography management.
