@@ -19,6 +19,9 @@ github_username: codetalker7
 # Build settings
 remote_theme: sighingnow/jekyll-gitbook
 
+# customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
+favicon_path: /assets/gitbook/images/thumbnail.png
+
 toc:
   enabled: true
   h_min: 1
