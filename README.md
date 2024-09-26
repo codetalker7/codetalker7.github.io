@@ -20,7 +20,7 @@ In my free time, I love contributing to and exploring open source software, and 
 
 This website is updated whenever I have something new to add (check the bottom of this page for major updates). My contact information is available below. I would love to talk about math/computer science/open source software. A copy of my resume is available on request.
 
-- **Email**: [chaudhary@cmi.ac.in](mailto:chaudhary@cmi.ac.in), [urssidd@gmail.com](mailto:urssidd@gmail.com).
+- **Email**: ~~[chaudhary@cmi.ac.in](mailto:chaudhary@cmi.ac.in)~~, [urssidd@gmail.com](mailto:urssidd@gmail.com).
 - **Google Scholar**: [Siddhant Chaudhary](https://scholar.google.com/citations?user=WZ9a08wAAAAJ&hl=en)
 - **Discord**: Siddhant Chaudhary#8409.
 - **LinkedIn**: [Siddhant Chaudhary](https://www.linkedin.com/in/siddhant-chaudhary-84182110a/){:target="\_blank"}.
