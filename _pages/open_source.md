@@ -9,7 +9,7 @@ In my free time, I try to contribute to open source software; my GitHub username
 
 #### [ColBERT.jl](https://github.com/codetalker7/ColBERT.jl)@GSoC 2024
 
-I was accepted as a [GSoC 2024 contributor](https://julialang.org/blog/2024/05/gsoc-2024-fellows/){:target="\_blank"} for a [GenAI project](https://summerofcode.withgoogle.com/programs/2024/projects/GauGUFoo){:target="\_blank"}! I'll be building [ColBERT.jl](https://github.com/codetalker7/ColBERT.jl){:target="\_blank"}, an efficient, *late-interaction* based neural information retrieval system in pure Julia! Soon I'll be making a blog post on this, stay tuned! 
+I was accepted as a [GSoC 2024 contributor](https://julialang.org/blog/2024/05/gsoc-2024-fellows/){:target="\_blank"} for a [GenAI project](https://summerofcode.withgoogle.com/programs/2024/projects/GauGUFoo){:target="\_blank"}! I'll be building [ColBERT.jl](https://github.com/codetalker7/ColBERT.jl){:target="\_blank"}, an efficient, *late-interaction* based neural information retrieval system in pure Julia! ~~Soon I'll be making a blog post on this, stay tuned!~~ Check out a blog I wrote on this at the [Julia Forem](https://forem.julialang.org/codetalker7/colbertjl-efficient-late-interaction-retrieval-systems-in-julia-1d9k) and also [on this webpage](https://codetalker7.github.io/jekyll/2024-08-02-colbert.html).
 
 #### [JuliaStats](https://julialang.org/jsoc/gsoc/juliastats/){:target="\_blank"}@GSoC 2022
 
