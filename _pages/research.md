@@ -6,7 +6,7 @@ layout: post
 - [*You Only Prune Once*: Designing Calibration-Free Model Compression With Policy Learning
 ](https://openreview.net/forum?id=5RZoYIT3u6&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)){:target="\_blank"}\\
 Ayan Sengupta, **Siddhant Chaudhary** and Tanmoy Chakraborty   
-[ICLR 2025](https://iclr.cc/){:target="\_blank"}\
+[*ICLR 2025*, Singapore EXPO](https://iclr.cc/){:target="\_blank"}\
 [[pdf]](https://openreview.net/pdf?id=5RZoYIT3u6){:target="\_blank"} [[BibTeX]](/assets/bibtex/iclr2025.bib){:target="\_blank"} 
 
 
