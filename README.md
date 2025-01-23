@@ -34,7 +34,7 @@ This website is updated whenever I have something new to add (check the bottom o
 
 # News
 
-- **[01/2025]** &emsp;Our paper on $\texttt{PruneNet}$, a novel structured model compression technique, accepted to ICLR 2025!
+- **[01/2025]** &emsp;Our paper on $\texttt{PruneNet}$, a novel structured model compression technique, accepted to [ICLR 2025](https://iclr.cc/)!
 
 - **[10/2024]** &emsp;Successfully completed by [GSoC 2024 project](https://summerofcode.withgoogle.com/programs/2024/projects/GauGUFoo){:target="\_blank"}, and released [v0.1.0](https://github.com/JuliaGenAI/ColBERT.jl/releases/tag/v0.1.0){:target="\_blank"} of [ColBERT.jl](https://github.com/JuliaGenAI/ColBERT.jl){:target="\_blank"}. Check out a related blog post on the [Julia Forem](https://forem.julialang.org/codetalker7/colbertjl-efficient-late-interaction-retrieval-systems-in-julia-1d9k){:target="\_blank"} or on [this page](/_posts/2024-08-02-colbert.md){:target="\_blank"}.
 
