@@ -5,7 +5,7 @@ layout: post
 
 - [*You Only Prune Once*: Designing Calibration-Free Model Compression With Policy Learning
 ](https://openreview.net/forum?id=5RZoYIT3u6&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)){:target="\_blank"}\\
-Ayan Sengupta, **Siddhant Chaudhary** and Tanmoy Chakraborty   
+Ayan Sengupta\*, **Siddhant Chaudhary\*** and Tanmoy Chakraborty[^1]   
 [*ICLR 2025*, Singapore EXPO](https://iclr.cc/){:target="\_blank"}\
 [[pdf]](https://openreview.net/pdf?id=5RZoYIT3u6){:target="\_blank"} [[BibTeX]](/assets/bibtex/iclr2025.bib){:target="\_blank"} 
 
@@ -18,3 +18,5 @@ Ayan Sengupta, **Siddhant Chaudhary** and Tanmoy Chakraborty
 - [Online Subset Selection using $\alpha$-Core with no Augmented Regret](https://arxiv.org/abs/2209.14222){:target="\_blank"}  
 Sourav Sahoo, **Siddhant Chaudhary**, Samrat Mukhopadhyay, and Abhishek Sinha  
 [[Preprint]](https://arxiv.org/abs/2209.14222){:target="\_blank"}
+
+[^1]: \* indicates equal contribution.
