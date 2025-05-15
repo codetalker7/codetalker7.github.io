@@ -34,7 +34,7 @@ This website is updated whenever I have something new to add (check the bottom o
 
 # News
 
-- **[04/2025]** &emsp; My work on [ColBERT.jl](https://github.com/codetalker7/ColBERT.jl){:target="\_blank"} accepted as a main talk to [JuliaCon 2025](https://juliacon.org/2025/)!
+- **[04/2025]** &emsp;My work on [ColBERT.jl](https://github.com/codetalker7/ColBERT.jl){:target="\_blank"} accepted as a main talk to [JuliaCon 2025](https://juliacon.org/2025/)!
 
 - **[01/2025]** &emsp;Our paper on $\texttt{PruneNet}$, a novel structured model compression technique, accepted to [ICLR 2025](https://iclr.cc/)!
 
