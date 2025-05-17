@@ -49,3 +49,14 @@ This website is updated whenever I have something new to add (check the bottom o
 - **[10/2023]** &emsp;Our [paper](https://arxiv.org/abs/2310.14164){:target="\_blank"} on fair contextual bandits is out.
 
 - **[02/2023]** &emsp;Our [paper](https://arxiv.org/abs/2209.14222){:target="\_blank"} on the online subset selection problem is out.
+
+# Blog posts
+
+- **[08/2024]** &emsp;[A blog about my implementation of ColBERT in pure Julia](/jekyll/2024-08-02-colbert.html){:target="\_blank"}.
+- **[07/2024]** &emsp;[A small discussion of how I used to manage knowledge bases](/jekyll/2024-07-07-obsidian.html){:target="\_blank"}. *Note*: this is kinda outdated, I use a much simpler method now. 
+
+### Upcoming:
+
+- **Grad school admissions:** I'll write about my experiences with the Fall 2025 CS PhD application cycle (for US and European universities).
+
+- **Math/CS theory tools:** I'm planning to write a series of blogs (length unbounded) on theoretical tools and techniques which I learn from reading papers/books, which I find appealing and which I think can be used in research. The first of these will be on the *various notions of conditional distributions*. 
