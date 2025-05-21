@@ -1,9 +1,11 @@
 ---
-title: My Projects
+title: Old stuff 
 layout: post
 ---
 
-Here are some theoretical projects that I've worked on. Currently the list is a bit old, but expect more projects to be here soon.
+~~Here are some theoretical projects that I've worked on. Currently the list is a bit old, but expect more projects to be here soon.~~ This is an old page. I don't want to 
+remove this, but consider this list outdated. These were just some math topics
+which I explored at a point in my life.
 
 ## Math
 
