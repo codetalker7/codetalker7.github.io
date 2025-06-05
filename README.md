@@ -68,7 +68,7 @@ my resume is available on request.
 - **Discord**: Siddhant Chaudhary#8409.
 - **LinkedIn**:
   [Siddhant Chaudhary](https://www.linkedin.com/in/siddhant-chaudhary-84182110a/){:target="\_blank"}.
-- **Twitter**: [Siddhant Chaudhary](https://twitter.com/sid_codetalker7)
+- **Twitter**: [Siddhant Chaudhary](https://twitter.com/codetalker07)
 - **Keybase**:
   [Siddhant Chaudhary](https://keybase.io/codetalker7){:target="\_blank"}.
 
