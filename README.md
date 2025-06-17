@@ -8,18 +8,26 @@ permalink: /
 ![alt text](/assets/images/homepage-modified.png "My picture"){:width="250px"}
 {: refdef}
 
-Welcome to my homepage! I am a passionate problem solver, and I also love to
-write code. You can find a lot of what I do on this site.
+Hello! I'm an upcoming CS PhD student at the
+[Kahlert School of Computing, University of Utah](https://www.cs.utah.edu/). On
+this website, you'll find a lot of information about my work and interests.
+
+Currently, I'm interested in building the theoretical foundations of _large
+language models_ (LLMs). This includes all aspects of the inner workings of
+these models , ranging from their ability to retain long-term information
+(memory), their reasoning capabilities (eg., _in-context learning_) and making
+them more efficient (_model compression_). I'm also interested in other general
+problems in theoretical machine learning, pertaining to areas like
+high-dimensional statistics, online/statistical learning, and privacy-related
+problems in these areas.
 
 As part of the
 [Laboratory for Computational Social Systems (LCS2) @IIT Delhi](https://www.lcs2.in/people_restructured.html){:target="\_blank"}
-(led by [Dr. Tanmoy Chakraborty](https://tanmoychak.com/){:target="\_blank"}) as
-a research assistant, I'm currently working on problems revolving around _large
-language models_ (LLMs), particularly problems on model and inference
-efficiency, and fact-discovery capabilities of LLMs.
-
-During my masters ([@CMI](https://www.cmi.ac.in/){:target="\_blank"}), I also
-worked as a research assistant at the
+(led by [Dr. Tanmoy Chakraborty](https://tanmoychak.com/){:target="\_blank"}), I
+previously worked as a research assistant on problems revolving around LLMs,
+particularly problems on model and inference efficiency. During my masters
+([@CMI](https://www.cmi.ac.in/){:target="\_blank"}), I also worked as a research
+assistant at the
 [Networks and Learning Group at TIFR Mumbai](https://abhishek-sinha-tifr.github.io/group.html){:target="\_blank"}
 (led by
 [Dr. Abhishek Sinha](https://abhishek-sinha-tifr.github.io/){:target="\_blank"}),
@@ -31,24 +39,18 @@ policy (which is also the first of it's kind to incorporate _hints_ in learning
 optimal subsets), the contextual bandits problem with a new concave
 $\alpha$-fairness objective, for which we developed the first such policy in the
 bandit information setup, and problems in the domain of online meta-learning and
-multi-task learning. Check out my
-[research work](/pages/research){:target="\_blank"}.
+multi-task learning. I try to update my
+[research work on this website](/pages/research){:target="\_blank"}, but it can
+also be found on my
+[Google Scholar](https://scholar.google.com/citations?user=WZ9a08wAAAAJ&hl=en).
 
-I'm also interested in applied areas of ML, including deep learning, natural
-language processing (particularly LLMs) and automatic differentation (in
-particular, source to source AD. Art like
-[Zygote.jl](https://github.com/FluxML/Zygote.jl){:target="\_blank"}). I also
-like to learn about programming languages and the ecosystem of toolchains
-surrounding them. In math, I'm mainly interested in algebra, topology and
-probability theory.
-
-In my free time, I love contributing to and exploring open source software, and
-write about OSS and linux. Check out some of my open source contributions on my
+I also love contributing to and exploring open source software. My contributions
+can be found on my
 [GitHub profile(@codetalker7)](https://github.com/codetalker7){:target="\_blank"}
-or [here](/pages/open_source){:target="\_blank"}. I've also described my
-[configuration](/pages/code){:target="\_blank"} and written some blogs on
-various topics (including OSS, set-ups and linux; you can see them on the
-navigation pane on the left). I also love speed typing
+or
+[here (but this page could be outdated)](/pages/open_source){:target="\_blank"}.
+I've also described my [configuration](/pages/code){:target="\_blank"}. I used
+to speed type
 ([this](https://data.typeracer.com/pit/profile?user=code_talker){:target="\_blank"}
 is my last TypeRacer profile, which I've abandoned. I'm currently using
 [this](https://data.typeracer.com/pit/profile?user=professor_pyg){:target="\_blank"}
@@ -68,9 +70,9 @@ my resume is available on request.
 - **Discord**: Siddhant Chaudhary#8409.
 - **LinkedIn**:
   [Siddhant Chaudhary](https://www.linkedin.com/in/siddhant-chaudhary-84182110a/){:target="\_blank"}.
-- **Twitter**: [Siddhant Chaudhary](https://twitter.com/codetalker07)
-- **Keybase**:
-  [Siddhant Chaudhary](https://keybase.io/codetalker7){:target="\_blank"}.
+- **Twitter**: [@codetalker07](https://twitter.com/codetalker07)
+- **Bluesky**: [@codetalker7](https://twitter.com/codetalker07)
+- **Keybase**: [@codetalker7](https://keybase.io/codetalker7){:target="\_blank"}.
 
 > ##### About this website
 >
