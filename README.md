@@ -71,8 +71,9 @@ my resume is available on request.
 - **LinkedIn**:
   [Siddhant Chaudhary](https://www.linkedin.com/in/siddhant-chaudhary-84182110a/){:target="\_blank"}.
 - **Twitter**: [@codetalker07](https://twitter.com/codetalker07)
-- **Bluesky**: [@codetalker7](https://twitter.com/codetalker07)
-- **Keybase**: [@codetalker7](https://keybase.io/codetalker7){:target="\_blank"}.
+- **Bluesky**: [@codetalker7](https://bsky.app/profile/codetalker7.bsky.social)
+- **Keybase**:
+  [@codetalker7](https://keybase.io/codetalker7){:target="\_blank"}.
 
 > ##### About this website
 >
