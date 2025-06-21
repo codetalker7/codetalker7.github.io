@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: "@codetalker7"
 layout: home
 permalink: /
 ---
@@ -21,13 +21,35 @@ problems in theoretical machine learning, pertaining to areas like
 high-dimensional statistics, online/statistical learning, and privacy-related
 problems in these areas.
 
+My socials:
+
+- **Email**: ~~[chaudhary@cmi.ac.in](mailto:chaudhary@cmi.ac.in)~~,
+  [urssidd@gmail.com](mailto:urssidd@gmail.com).
+- **Google Scholar**:
+  [Siddhant Chaudhary](https://scholar.google.com/citations?user=WZ9a08wAAAAJ&hl=en)
+- **Discord**: Siddhant Chaudhary#8409.
+- **LinkedIn**:
+  [Siddhant Chaudhary](https://www.linkedin.com/in/siddhant-chaudhary-84182110a/){:target="\_blank"}.
+- **Twitter**: [@codetalker07](https://twitter.com/codetalker07)
+- **Bluesky**: [@codetalker7](https://bsky.app/profile/codetalker7.bsky.social)
+- **Keybase**:
+  [@codetalker7](https://keybase.io/codetalker7){:target="\_blank"}.
+- **Instagram**:
+  [@codetalker7](https://www.instagram.com/codetalker7/){:target="\_blank"}.
+
+## Previous work and affiliations
+
 As part of the
 [Laboratory for Computational Social Systems (LCS2) @IIT Delhi](https://www.lcs2.in/people_restructured.html){:target="\_blank"}
 (led by [Dr. Tanmoy Chakraborty](https://tanmoychak.com/){:target="\_blank"}), I
 previously worked as a research assistant on problems revolving around LLMs,
-particularly problems on model and inference efficiency. During my masters
-([@CMI](https://www.cmi.ac.in/){:target="\_blank"}), I also worked as a research
-assistant at the
+particularly problems on model and inference efficiency. During this time, we
+developed a novel, calibration-free model pruning technique; we studied scaling
+laws for model pruning, and we also developed a new technique for compressing KV
+caches during the inference phase of LLMs.
+
+During my masters ([@CMI](https://www.cmi.ac.in/){:target="\_blank"}), I also
+worked as a research assistant at the
 [Networks and Learning Group at TIFR Mumbai](https://abhishek-sinha-tifr.github.io/group.html){:target="\_blank"}
 (led by
 [Dr. Abhishek Sinha](https://abhishek-sinha-tifr.github.io/){:target="\_blank"}),
@@ -44,13 +66,15 @@ multi-task learning. I try to update my
 also be found on my
 [Google Scholar](https://scholar.google.com/citations?user=WZ9a08wAAAAJ&hl=en).
 
+## Open source and writing
+
 I also love contributing to and exploring open source software. My contributions
 can be found on my
 [GitHub profile(@codetalker7)](https://github.com/codetalker7){:target="\_blank"}
 or
 [here (but this page could be outdated)](/pages/open_source){:target="\_blank"}.
-I've also described my [configuration](/pages/code){:target="\_blank"}. I used
-to speed type
+I've also described my [configuration](/pages/code){:target="\_blank"} (though
+some parts of it could be a bit old). I used to speed type
 ([this](https://data.typeracer.com/pit/profile?user=code_talker){:target="\_blank"}
 is my last TypeRacer profile, which I've abandoned. I'm currently using
 [this](https://data.typeracer.com/pit/profile?user=professor_pyg){:target="\_blank"}
@@ -58,31 +82,8 @@ one). I'm also a huge NBA fan, and I love listening to and playing metal music
 (one of my favorite bands is
 [Periphery](https://periphery.net/){:target="\_blank"})!
 
-This website is updated whenever I have something new to add (check the bottom
-of this page for major updates). My contact information is available below. I
-would love to talk about math/computer science/open source software. A copy of
-my resume is available on request.
-
-- **Email**: ~~[chaudhary@cmi.ac.in](mailto:chaudhary@cmi.ac.in)~~,
-  [urssidd@gmail.com](mailto:urssidd@gmail.com).
-- **Google Scholar**:
-  [Siddhant Chaudhary](https://scholar.google.com/citations?user=WZ9a08wAAAAJ&hl=en)
-- **Discord**: Siddhant Chaudhary#8409.
-- **LinkedIn**:
-  [Siddhant Chaudhary](https://www.linkedin.com/in/siddhant-chaudhary-84182110a/){:target="\_blank"}.
-- **Twitter**: [@codetalker07](https://twitter.com/codetalker07)
-- **Bluesky**: [@codetalker7](https://bsky.app/profile/codetalker7.bsky.social)
-- **Keybase**:
-  [@codetalker7](https://keybase.io/codetalker7){:target="\_blank"}.
-
-> ##### About this website
->
-> This webpage was made using
-> [Jekyll's Gitbook](https://sighingnow.github.io/jekyll-gitbook/){:target="\_blank"}
-> theme. I was using my own template in the old website, which I had been
-> wanting to change for a while. The old website still lives in the `main`
-> branch of the `codetalker7.github.io` repository. 
-{: .block-tip }
+Occasionally, I write about random things (mostly related to tech, theory or
+OSS). You can find all of my blogs on the navigation bar on the left.
 
 # News
 
@@ -126,6 +127,8 @@ my resume is available on request.
 
 # Blog posts
 
+- **[06/2025]**
+  &emsp;[I wrote about my experiences with grad school applications](/jekyll/2025-06-21-gradadmissions.html){:target="\_blank"}.
 - **[05/2025]**
   &emsp;[Started writing some posts on theory cs tools](/jekyll/2025-05-17-cstools.html){:target="\_blank"}.
   This will be dynamic and I'll add more things to this as I like.
@@ -137,5 +140,4 @@ my resume is available on request.
 
 ### Upcoming:
 
-- **Grad school admissions:** I'll write about my experiences with the Fall 2025
-  CS PhD application cycle (for US and European universities).
+Currently empty. Will update when I have something.
