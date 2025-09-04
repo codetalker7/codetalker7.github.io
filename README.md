@@ -8,9 +8,11 @@ permalink: /
 ![alt text](/assets/images/homepage-modified.png "My picture"){:width="250px"}
 {: refdef}
 
-Hello! I'm an upcoming CS PhD student at the
-[Kahlert School of Computing, University of Utah](https://www.cs.utah.edu/). On
-this website, you'll find a lot of information about my work and interests.
+Hello! I'm a first year CS PhD student at the
+[Kahlert School of Computing, University of Utah](https://www.cs.utah.edu/). I'm
+fortunate to be working with
+[Prof. Aditya Bhaskara](https://users.cs.utah.edu/~bhaskara/). On this website,
+you'll find a lot of information about my work and interests.
 
 Currently, I'm interested in building the theoretical foundations of _large
 language models_ (LLMs). This includes all aspects of the inner workings of
@@ -24,6 +26,7 @@ problems in these areas.
 My socials:
 
 - **Email**: ~~[chaudhary@cmi.ac.in](mailto:chaudhary@cmi.ac.in)~~,
+  [u1591895@utah.edu](mailto:u1591895@utah.edu),
   [urssidd@gmail.com](mailto:urssidd@gmail.com).
 - **Google Scholar**:
   [Siddhant Chaudhary](https://scholar.google.com/citations?user=WZ9a08wAAAAJ&hl=en)
@@ -86,6 +89,9 @@ Occasionally, I write about random things (mostly related to tech, theory or
 OSS). You can find all of my blogs on the navigation bar on the left.
 
 # News
+
+- **[08/2025]** &emsp;Started my PhD in computer science at
+  [KSoC, U of U](https://www.cs.utah.edu/)!
 
 - **[04/2025]** &emsp;My work on
   [ColBERT.jl](https://github.com/codetalker7/ColBERT.jl){:target="\_blank"}
