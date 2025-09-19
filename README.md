@@ -90,6 +90,9 @@ OSS). You can find all of my blogs on the navigation bar on the left.
 
 # News
 
+- **[08/2025]** &emsp;Our paper on a new KV cache compression technique accepted
+  at [NeurIPS 2025](https://neurips.cc/)!
+
 - **[08/2025]** &emsp;Started my PhD in computer science at
   [KSoC, U of U](https://www.cs.utah.edu/)!
 
