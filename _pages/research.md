@@ -3,9 +3,10 @@ title: Research
 layout: post
 ---
 
-- [Value-Guided KV Compression for LLMs via Approximated CUR Decomposition](){:target="\_blank"}\\
+- [Value-Guided KV Compression for LLMs via Approximated CUR Decomposition](https://arxiv.org/abs/2509.15038){:target="\_blank"}\\
 Ayan Sengupta\*, **Siddhant Chaudhary\*** and Tanmoy Chakraborty[^1]   
-[*NeurIPS 2025*, San Diego Convention Center](https://neurips.cc/){:target="\_blank"}
+[*NeurIPS 2025*, San Diego Convention Center](https://neurips.cc/){:target="\_blank"}\
+[[pdf]](https://arxiv.org/pdf/2509.15038){:target="\_blank"} [[BibTeX]](/assets/bibtex/neurips2025.bib){:target="\_blank"}
 
 - [*You Only Prune Once*: Designing Calibration-Free Model Compression With Policy Learning
 ](https://arxiv.org/abs/2501.15296){:target="\_blank"}\\
