@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siddhant Chaudhary | Kahlert School of Computing, University of Utah</title>
+  <meta name="description" content="Siddhant Chaudhary is a PhD student in Computer Science at the University of Utah. Research interests include high dimensional statistics, machine learning, large language and generative models." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://codetalker7.github.io/" />
+
+  <meta property="og:title" content="Siddhant Chaudhary| PhD Student in Computer Science" />
+  <meta property="og:description" content="Academic homepage of Siddhant Chaudhary, PhD student in Computer Science at the University of Utah." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://codetalker7.github.io/" />
+  <meta property="og:image" content="https://codetalker7.github.io/assets/pic.png" />
+  <meta property="og:site_name" content="Siddhant Chaudhary" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Siddhant Chaudhary | PhD Student in Computer Science" />
+  <meta name="twitter:description" content="Academic homepage of Siddhant Chaudhary, PhD student in Computer Science at the University of Utah." />
+  <meta name="twitter:image" content="https://codetalker7/assets/pic.png" />
+
+  <link rel="icon" href="assets/pic.png" type="image/png" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Siddhant Chaudhary",
+      "url": "https://codetalker7.github.io/",
+      "image": "https://codetalker7.github.iom/assets/pic.png",
+      "jobTitle": "PhD Student in Computer Science",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Utah"
+      },
+      "email": "mailto:urssidd@gmail.com",
+      "sameAs": [
+        "https://scholar.google.com/citations?user=WZ9a08wAAAAJ&hl=en&authuser=3",
+        "https://github.com/codetalker7",
+      ]
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/contrib/auto-render.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "\\(", right: "\\)", display: false },
+          { left: "$", right: "$", display: false }
+        ],
+        throwOnError: false
+      });
+    });
+  </script>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #111111;
+      --muted: #666666;
+      --line: #e8e8e8;
+      --link: #1f4fd1;
+      --max: 760px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      font-size: 16px;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      width: min(100% - 2rem, var(--max));
+      margin: 0 auto;
+      padding: 3.5rem 0 5rem;
+    }
+
+    header {
+      margin-bottom: 3rem;
+    }
+
+    .intro {
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    .portrait {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      border: 1px solid var(--line);
+    }
+
+    .portrait-placeholder {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .name {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      line-height: 1.1;
+      margin: 0 0 0.5rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    nav {
+      margin-top: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.98rem;
+    }
+
+    main {
+      display: grid;
+      gap: 2.75rem;
+    }
+
+    section {
+      padding-top: 0.25rem;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      font-size: 1.05rem;
+      margin: 0 0 1rem;
+      letter-spacing: 0.01em;
+    }
+
+    p {
+      margin: 0 0 1rem;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.1rem;
+    }
+
+    li + li {
+      margin-top: 0.7rem;
+    }
+
+    .meta {
+      color: var(--muted);
+    }
+
+    .news-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .news-list li {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 1rem;
+      align-items: start;
+      padding: 0.2rem 0;
+    }
+
+    .news-date {
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        width: min(100% - 1.25rem, var(--max));
+        padding-top: 2rem;
+      }
+
+      .intro {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      .portrait,
+      .portrait-placeholder {
+        width: 96px;
+        height: 96px;
+      }
+
+      .news-list li {
+        grid-template-columns: 1fr;
+        gap: 0.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="intro">
+        <img class="portrait" src="assets/pic.png" alt="Portrait of Siddhant Chaudhary" />
+        <div>
+          <h1 class="name">Siddhant Chaudhary</h1>
+          <p class="subtitle">CS Grad @ <a href="https://www.cs.utah.edu/">Kahlert School of Computing, University of Utah</a></p>
+          <nav>
+            <a href="#about">About</a>
+            <a href="#publications">Publications</a>
+            <a href="#experience">Experience</a>
+            <a href="#news">News</a>
+            <a href="#links">Links</a>
+            <a href="https://scholar.google.com/citations?user=WZ9a08wAAAAJ&hl=en&authuser=3">Google Scholar</a>
+            <a href="https://github.com/codetalker7">GitHub</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <p>
+         Hello! I'm a first-year CS PhD student at the <a href="https://www.cs.utah.edu/">Kahlert School of Computing, University of Utah</a>. I'm fortunate
+         to be working with <a href="https://users.cs.utah.edu/~bhaskara/">Prof. Aditya Bhaskara</a>. I'm also a part of <a href="https://utahtheory.github.io/">
+         Utah's Theory Group</a>. Previously, I spent a year as a research assistant at the <a href="https://www.lcs2.in/">
+         Laboratory for Computational Social Systems (LCS2) @IIT Delhi</a> (led by <a href="https://tanmoychak.com/">Dr. Tanmoy Chakraborty</a>), and also as a 
+         research assistant at the <a href="">Networks and Learning Group at TIFR Mumbai</a> (led by <a href="https://abhishek-sinha-tifr.github.io/">
+         Dr. Abhishek Sinha</a>). I'm broadly interested in fundamental problems in artificial intelligence with a particular focus on robustness and efficiency. The
+         best way to reach me is via my email (<a href="mailto:you@university.edu">urssidd@gmail.com</a>), and you can find my other links at the bottom of this page.
+        </p>
+        <p>
+         <b>Research interests:</b> High-dimensional statistics, Optimization, Large Language Models (inference efficiency, compression, data attribution, interpretability),
+         Applied Probability.
+        </p>
+         <b>Other interests:</b> Progressive Metal, Lifting, Speed Typing, Gaming, Investing
+        </p>
+      </section>
+
+      <section id="publications">
+        <h2>Publications</h2>
+        <ul>
+          <li>
+            <i>Linear Regression with Heteroskedastic Errors</i><br />
+            <b>Siddhant Chaudhary</b> and Aditya Bhaskara<br />
+            <span class="meta"><i>Under review</i></span><br />
+          </li>
+          <li>
+            <i>Value-Guided KV Compression for LLMs via Approximated CUR Decomposition</i><br />
+            Ayan Sengupta*, <b>Siddhant Chaudhary*</b> and Tanmoy Chakraborty<br />
+            <span class="meta"><a href="https://neurips.cc/">NeurIPS 2025, San Diego Convention Center</a></span><br />
+            <a href="https://arxiv.org/abs/2509.15038">paper</a> · <a href="https://github.com/NVIDIA/kvpress/blob/main/kvpress/presses/cur_press.py">code</a> · <a href="https://neurips.cc/media/PosterPDFs/NeurIPS%202025/116352.png?t=1762272357.6524627">poster</a>
+          </li>
+          <li>
+            <i>You Only Prune Once: Designing Calibration-Free Model Compression With Policy Learning</i><br />
+            Ayan Sengupta*, <b>Siddhant Chaudhary*</b> and Tanmoy Chakraborty<br />
+            <span class="meta"><a href="https://iclr.cc/">ICLR 2025, Singapore EXPO</a></span><br />
+            <a href="https://arxiv.org/abs/2501.15296">paper</a> · <a href="https://github.com/LCS2-IIITD/PruneNet">code</a> · <a href="https://iclr.cc/media/PosterPDFs/ICLR%202025/30946.png?t=1743958023.7834394">poster</a>
+          </li>
+          <li>
+            <i>$\alpha$-Fair Contextual Bandits</i><br />
+            <b>Siddhant Chaudhary</b> and Abhishek Sinha<br />
+            <span class="meta"><a href="https://rl-control-theory.github.io/">ICML 2024 workshop on Foundations of RL and Control, Vienna, Austria</a></span><br />
+            <a href="https://openreview.net/forum?id=y0KQKrrgbC">paper</a> · <a href="https://github.com/codetalker7/contextual-alpha-fair-bandits">code</a>
+          </li>
+          <li>
+            <i>Online Subset Selection using $\alpha$-Core with no Augmented Regret</i><br />
+            Sourav Sahoo, <b>Siddhant Chaudhary</b>, Samrat Mukhopadhyay, and Abhishek Sinha
+            <span class="meta">Ongoing</span><br />
+            <a href="https://arxiv.org/abs/2209.14222">preprint</a>
+          </li>
+          </li>
+        </ul>
+      </section>
+
+      <section id="experience">· 
+        <h2>Industry/OSS Experience</h2>
+        <ul>
+          <li>
+            <strong>PhD SWE Intern</strong>, Google<br />
+            <span class="meta">May 2026 - August 2026</span><br />
+            Efficient inference in LLMs.
+          </li>
+          <li>
+            <strong>Open Source Developer</strong>, Google Summer of Code<br />
+            <span class="meta">May 2024 – October 2024</span><br />
+            Ported ColBERT to Julia; developed and maintained <a href="https://github.com/codetalker7/ColBERT.jl">ColBERT.jl</a>.
+          </li>
+          <li>
+            <strong>Open Source Developer</strong>, Google Summer of Code<br />
+            <span class="meta">May 2022 - October 2022</span><br />
+            Contributed to and wrote <a href="https://github.com/xKDR">various packages</a> in the <a href="https://julialang.org/jsoc/gsoc/juliastats/">JuliaStats</a>ecosystem.
+          </li>
+        </ul>
+      </section>
+
+      <section id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+          <li>
+            <span class="news-date">Aug 2025</span>
+            <span>Our paper on a new KV cache compression technique accepted at <a href="https://neurips.cc/">NeurIPS 2025</a>!</span>
+          </li>
+          <li>
+            <span class="news-date">Aug 2025</span>
+            <span>Started my PhD in computer science at <a href="https://www.cs.utah.edu/">KSoC, U of U</a>!</span>
+          </li>
+          <li>
+            <span class="news-date">Apr 2025</span>
+            <span>My work on <code>ColBERT.jl</code> accepted as a main talk to <a href="https://juliacon.org/2025/">JuliaCon 2025</a>!</span>
+          </li>
+          <li>
+            <span class="news-date">Jan 2025</span>
+            <span>Our paper on <code>PruneNet</code>, a novel structured model compression technique, accepted to <a href="https://iclr.cc/">ICLR 2025</a>!</span>
+          </li>
+          <li>
+            <span class="news-date">Jun 2025</span>
+            <span>Our paper on fair contextual bandits accepted at <a href="https://rl-control-theory.github.io/">FoRLaC@ICML2024</a>!</span>
+          </li>
+          <li>
+            <span class="news-date">May 2024</span>
+            <span>Joined <a href="https://www.lcs2.in/">LCS2@IITD</a> as an RA!</span>
+          </li>
+          <li>
+            <span class="news-date">May 2024</span>
+            <span>Graduated from <a href="https://www.cmi.ac.in/">CMI</a> with a BS + MS in Computer Science!</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="links">
+        <h2>Links</h2>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:urssidd@gmail.com">urssidd@gmail.com</a>, <a href="mailto:u1591895@utah.edu">u1591895@utah.edu</a></li>
+          <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=WZ9a08wAAAAJ&hl=en">Siddhant Chaudhary</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/codetalker7">github.com/codetalker7</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/siddhant-chaudhary-84182110a/">Siddhant Chaudhary</a></li>
+          <li><strong>X / Twitter:</strong> <a href="https://twitter.com/codetalker07">@codetalker07</a></li>
+          <li><strong>Bluesky:</strong> <a href="https://bsky.app/profile/codetalker7.bsky.social">@codetalker7.bsky.social</a></li>
+          <li><strong>Keybase:</strong> <a href="ihttps://keybase.io/codetalker7">@codetalker7</a></li>
+        </ul>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      Last updated: April 2026.
+    </footer>
+  </div>
+</body>
+</html>
