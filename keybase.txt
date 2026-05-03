@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/codetalker7
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://codetalker7.github.io
+  * I am codetalker7 (https://keybase.io/codetalker7) on keybase.
+  * I have a public key ASDp-U-wTuka4MQP-ztkui0bSOSDHRGYQGdw8WNzw37-Xgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209311bee4c4ef8cf0cb112b91568583988941d6123da41a97c7853586085517e90a",
+      "host": "keybase.io",
+      "kid": "0120e9f94fb04ee91ae0c40ffb3b64ba2d1b48e4831d1198406770f16373c37efe5e0a",
+      "uid": "178925521de3043f85317c5b9e469b19",
+      "username": "codetalker7"
+    },
+    "merkle_root": {
+      "ctime": 1777791420,
+      "hash": "43efee6c56971c64105310578cb933a1ee617532929272a6157245764ac5e1f1ab066f0a57fbb425a5cd370ca7a8aaa0c05d3dcb8f18382e352a98e36f334571",
+      "hash_meta": "804adfe82df4dde30a906d5e371a0786ca86d9488511ea9410c17327b3694b23",
+      "seqno": 27560557
+    },
+    "service": {
+      "entropy": "KQ9p0ofCEn1Pvh+d+3o7FFsZ",
+      "hostname": "codetalker7.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.5.1"
+  },
+  "ctime": 1777791470,
+  "expire_in": 504576000,
+  "prev": "8f18f8fea2ff7fe20ca0b0fcfdc19f610b407f13f92ca021b000533db2214489",
+  "seqno": 24,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg6flPsE7pGuDED/s7ZLotG0jkgx0RmEBncPFjc8N+/l4Kp3BheWxvYWTESpcCGMQgjxj4/qL/f+IMoLD8/cGfYQtAfxP5LKAhsABTPbIhRInEIGKZvqO+HGf2qlSPYEO3ASdWEx32D1sWL6l2GPtOA1puAgHCo3NpZ8RAgssFjoFDz+yTwbM0EMOFynF9H/xvGBBti6+Z5wtuuXvXreB1FLYViQpzqDS4cIcBcfN+02paEl/FKD4vXd2mBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPGlihogtV2SmC97IP8F+QagfWXhacxMv873dDhBMD4Po3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/codetalker7
